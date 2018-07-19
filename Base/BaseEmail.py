@@ -42,9 +42,9 @@ def send_mail(**kwargs):
     server.sendmail(from_addr, kwargs["to_addr"], msg.as_string())
     server.quit()
 if __name__ == '__main__':
-    to_addr = ["284772894@qq.com"]
+    to_addr = ["84028058@qq.com"]
     mail_host = "smtp.qq.com"
-    mail_user = "284772894@qq.com"
+    mail_user = "84028058@qq.com"
     mail_pass = "oftllbhnknegbjhb"
     port = "465"
     header_msg = "接口测试"
