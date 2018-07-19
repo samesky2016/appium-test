@@ -77,10 +77,11 @@ if __name__ == '__main__':
             app = {}
             app["devices"] = dev
             init(dev)
+            #生成appium端口，appium-desktop端口默认为：4723
             app["port"] = str(random.randint(4700, 4900))
             app["bport"] = str(random.randint(4700, 4900))
             app["systemPort"] = str(random.randint(4700, 4900))
-            app["app"] = PATH("../app/com.ximalaya.ting.android.apk") # 测试的app路径,喜马拉雅app
+            app["app"] = PATH("../app/com.jieshun.jslife_3.2.1.apk") # 测试的app路径,喜马拉雅app
 
             l_devices.append(app)
 
