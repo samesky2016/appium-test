@@ -18,8 +18,8 @@ def appium_testcase(devices):
     desired_caps = {}
 
     if str(devices["platformName"]).lower() == "android":
-        # desired_caps['appPackage'] = devices["appPackage"]
-        # desired_caps['appActivity'] = devices["appActivity"]
+        desired_caps['appPackage'] = devices["appPackage"]
+        desired_caps['appActivity'] = devices["appActivity"]
         desired_caps['udid'] = devices["deviceName"]
         desired_caps['app'] = devices["app"]
         # desired_caps["recreateChromeDriverSessions"] = "True"
@@ -32,9 +32,10 @@ def appium_testcase(devices):
 
     desired_caps['platformVersion'] = devices["platformVersion"]
     desired_caps['platformName'] = devices["platformName"]
-    desired_caps["automationName"] = devices['automationName']
+    #uiautomation2 支持
+    #desired_caps["automationName"] = devices['automationName']
     desired_caps['deviceName'] = devices["deviceName"]
-    desired_caps["noReset"] = "True"
+    desired_caps["noReset"] = "False"
     desired_caps['noSign'] = "True"
     desired_caps["unicodeKeyboard"] = "True"
     desired_caps["resetKeyboard"] = "True"
@@ -43,6 +44,7 @@ def appium_testcase(devices):
     # desired_caps['app'] = devices["app"]
     remote = "http://127.0.0.1:" + str(devices["port"]) + "/wd/hub"
     # remote = "http://127.0.0.1:" + "4723" + "/wd/hub"
+
     driver = webdriver.Remote(remote, desired_caps)
     return driver
 

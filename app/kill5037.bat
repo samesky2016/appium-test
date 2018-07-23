@@ -2,8 +2,8 @@
 color a
 title ReleaseAdbPort
 echo ======================
-echo *** liyu 2015-01-15***
-echo ***     v1.0.0     ***
+echo *** sky 2018-07-20***
+echo ***     v2.0.0    ***
 echo ======================
 echo ---------------------------
 echo Checking adb port...

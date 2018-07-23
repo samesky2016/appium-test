@@ -1,29 +1,35 @@
 testinfo:
     - id: test001
-      title: 第一次启动app
+      title: app登录
       info: 打开app
 testcase:
-    - element_info: //android.widget.ListView//android.support.v4.view.ViewPager/android.widget.LinearLayout/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]
-      find_type: xpath
+    - element_info: com.jieshun.jslife:id/ic_guide_past
+      find_type: id
       operate_type: click
-      info: 点击个人图片
-#    - element_info: //*[@text="收藏"]
-#      find_type: xpath
-#      operate_type: click
-#      info: 点击我的收藏
-#    - element_info: com.huawei.works.me:id/item_content
-#      find_type: ids
-#      index: 0
-#      operate_type: click
-#      info: 点击我的收藏下的第一条数据
-#    - element_info: com.huawei.works.knowledge:id/vdr_fav
-#      find_type: id
-#      is_webview: 2 # 切换到native
-#      operate_type: click
-#      info: 点击取消收藏按钮
+      info: 跳过欢迎界面
+    - element_info: com.jieshun.jslife:id/editxt_user_name
+      find_type: id
+      operate_type: set_value
+      msg: "13632836691"
+      info: 输入用户名
+    - element_info: com.jieshun.jslife:id/edttxt_login_pwd
+      find_type: id
+      operate_type: set_value
+      msg: "123456"
+      info: 输入密码
+    - element_info: com.jieshun.jslife:id/btn_login
+      find_type: id
+      operate_type: click
+      info: 点击登录按钮
+    - element_info: com.jieshun.jslife:id/tv_user_page
+      find_type: id
+      is_time: 1
+      operate_type: click
+      info: 点击我的
 
 check:
-    - element_info: com.ximalaya.ting.android.main.application:id/main_group_rank_title
+    - element_info: com.jieshun.jslife:id/tv_user_sign
       find_type: id
-      check: default_check
-      info: 打开页面成功
+      check: 测试ha
+      operate_type: get_value
+      info: 登录成功

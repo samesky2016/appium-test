@@ -17,6 +17,7 @@ from Base.BaseStatistics import countDate, writeExcel, countSumDevices
 from Base.BasePickle import *
 from datetime import datetime
 from Base.BaseApk import ApkInfo
+from Base.BaseEmail import sendEmail
 PATH = lambda p: os.path.abspath(
     os.path.join(os.path.dirname(__file__), p)
 )
@@ -40,7 +41,7 @@ def runnerPool(getDevices):
         _initApp["platformVersion"] = getPhoneInfo(devices=_initApp["deviceName"])["release"]
         _initApp["platformName"] = "android"
         _initApp["port"] = getDevices[i]["port"]
-        _initApp["automationName"] = "uiautomator2"
+        #_initApp["automationName"] = "uiautomator2"
         _initApp["systemPort"] = getDevices[i]["systemPort"]
 
         _initApp["app"] = getDevices[i]["app"]
@@ -76,12 +77,14 @@ if __name__ == '__main__':
         for dev in devicess:
             app = {}
             app["devices"] = dev
-            init(dev)
+            # 注释掉重现安装
+            #init(dev)
             #生成appium端口，appium-desktop端口默认为：4723
-            app["port"] = str(random.randint(4700, 4900))
+            app["port"] = str(4723)
+            #app["port"] = str(random.randint(4700, 4900))
             app["bport"] = str(random.randint(4700, 4900))
             app["systemPort"] = str(random.randint(4700, 4900))
-            app["app"] = PATH("../app/com.jieshun.jslife_3.2.1.apk") # 测试的app路径,喜马拉雅app
+            app["app"] = PATH("../app/com.jieshun.jslife.apk") # 测试的app路径,喜马拉雅app
 
             l_devices.append(app)
 
@@ -90,5 +93,7 @@ if __name__ == '__main__':
         runnerPool(l_devices)
         writeExcel()
         appium_server.stop_server(l_devices)
+        #发送邮件
+        sendEmail()
     else:
         print("没有可用的安卓设备")
