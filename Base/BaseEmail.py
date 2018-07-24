@@ -62,7 +62,7 @@ class Mailer(object):
             return False
 def sendEmail():
     # send list
-    mailto_list = ["guobiao.hu@jieshun.cn", "zhandong.han@jieshun.cn"]
+    mailto_list = ["guobiao.hu@jieshun.cn"]
     mail_title = 'appium测试'
     mail_content = '-------->>appium测试<<--------'
     mm = Mailer(mailto_list, mail_title, mail_content)

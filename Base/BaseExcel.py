@@ -64,7 +64,7 @@ class OperateReport:
 
         _write_center(worksheet, "E3", "脚本语言", self.wd)
 
-        worksheet.merge_range('E4:E6', 'appium1.7+python3', get_format_center(self.wd))
+        worksheet.merge_range('E4:E6', 'appium1.8+python3', get_format_center(self.wd))
         _write_center(worksheet, "A8", '机型', self.wd)
         _write_center(worksheet, "B8", '通过', self.wd)
         _write_center(worksheet, "C8", '失败', self.wd)
@@ -179,7 +179,7 @@ def pie(workbook, worksheet):
     })
     chart1.set_title({'name': '测试统计'})
     chart1.set_style(10)
-    worksheet.insert_chart('A9', chart1, {'x_offset': 25, 'y_offset': 10})
+    worksheet.insert_chart('A9', chart1, {'x_offset': 500, 'y_offset': 20})
 
 
 if __name__ == '__main__':
