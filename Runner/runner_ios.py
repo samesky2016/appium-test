@@ -9,7 +9,7 @@ import platform
 from Base.BaseAndroidPhone import *
 from Base.BaseIosCommand import *
 from Base.BaseRunner import ParametrizedTestCase
-from TestCase.HomeTest import HomeTest
+from TestCase.LoginPageTest import HomeTest
 from TestCase.ContactTest import ContactTest
 from TestCase.CardsTest import CardsTest
 from TestCase.MeTest import MeTest

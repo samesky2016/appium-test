@@ -8,7 +8,7 @@ import platform
 from Base.BaseAndroidPhone import *
 from Base.BaseAdb import *
 from Base.BaseRunner import ParametrizedTestCase
-from TestCase.HomeTest import HomeTest
+from TestCase.LoginPageTest import LoginPageTest
 from Base.BaseAppiumServer import AppiumServer
 from multiprocessing import Pool
 import unittest
@@ -60,7 +60,7 @@ def runnerPool(getDevices):
 def runnerCaseApp(devices):
     starttime = datetime.now()
     suite = unittest.TestSuite()
-    suite.addTest(ParametrizedTestCase.parametrize(HomeTest, param=devices))
+    suite.addTest(ParametrizedTestCase.parametrize(LoginPageTest, param=devices))
     # suite.addTest(ParametrizedTestCase.parametrize(HomeTest, param=devices)) #加入测试类
     unittest.TextTestRunner(verbosity=2).run(suite)
     endtime = datetime.now()

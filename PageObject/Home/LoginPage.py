@@ -2,9 +2,9 @@ from Base.BaseYaml import getYam
 from PageObject import Pages
 
 
-class FirstOpenPage:
+class LoginPage:
     '''
-    Banner浏览历史
+    登录页面
     isOperate: 操作失败，检查点就失败,kwargs: WebDriver driver, String path(yaml配置参数)
     '''
 
