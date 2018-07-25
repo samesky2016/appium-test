@@ -34,8 +34,8 @@ class PagesObjects:
         self.device = kwargs["device"]
         self.logTest = kwargs["logTest"]
         self.caseName = kwargs["caseName"]
-        self.get_value = []
-        self.is_get = False  # 检查点特殊标志，结合get_value使用。若为真，说明检查点要对比历史数据和实际数据
+        self.get_value = self.test_msg[1]["check"]
+        self.is_get = True  # 检查点特殊标志，结合get_value使用。若为真，说明检查点要对比历史数据和实际数据
         self.msg = ""
 
     '''
@@ -110,8 +110,10 @@ class PagesObjects:
         #     return kwargs["check_point"]
 
         if self.isOperate:
+            i=0
             for item in self.testcheck:
-                if kwargs.get("check", be.DEFAULT_CHECK) == be.TOAST:
+
+                if item.get("check", be.DEFAULT_CHECK) == be.TOAST:
                     result = \
                     self.operateElement.toast(item["element_info"], testInfo=self.testInfo, logTest=self.logTest)[
                         "result"]
@@ -125,7 +127,7 @@ class PagesObjects:
                 else:
                     resp = self.operateElement.operate(item, self.testInfo, self.logTest, self.device)
 
-                if kwargs.get("check", be.DEFAULT_CHECK) == be.DEFAULT_CHECK and not resp["result"]:
+                if item.get("check", be.DEFAULT_CHECK) == be.DEFAULT_CHECK and not resp["result"]:
                     m = get_error(
                         {"type": be.DEFAULT_CHECK, "element_info": item["element_info"], "info": item["info"]})
                     self.msg = m_s_g + m
@@ -133,7 +135,7 @@ class PagesObjects:
                     self.testInfo[0]["msg"] = m
                     result = False
                     break
-                if kwargs.get("check", be.DEFAULT_CHECK) == be.CONTRARY and resp["result"]:
+                if item.get("check", be.DEFAULT_CHECK) == be.CONTRARY and resp["result"]:
                     m = get_error({"type": be.CONTRARY, "element_info": item["element_info"], "info": item["info"]})
                     self.msg = m_s_g + m
                     print(m)
@@ -141,7 +143,7 @@ class PagesObjects:
                     result = False
                     break
                 # 检查点关键字contrary_getval: 相反值检查点，如果对比成功，说明失败
-                if kwargs.get("check", be.DEFAULT_CHECK) == be.CONTRARY_GETVAL and self.is_get and resp["result"] \
+                if item.get("check", be.DEFAULT_CHECK) == be.CONTRARY_GETVAL and self.is_get and resp["result"] \
                         in self.get_value:
                     m = get_error(
                         {"type": be.CONTRARY_GETVAL, "current": item["element_info"], "history": resp["text"]})
@@ -150,14 +152,14 @@ class PagesObjects:
                     self.testInfo[0]["msg"] = m
                     result = False
                     break
-                if kwargs.get("check", be.DEFAULT_CHECK) == be.COMPARE and self.is_get and resp["text"] \
-                        not in self.get_value:  # 历史数据和实际数据对比
+                if item.get("check", be.DEFAULT_CHECK) == be.COMPARE and self.is_get and resp["text"] !=self.get_value[i].get('msg'):  # 历史数据和实际数据对比
                     result = False
                     m = get_error({"type": be.COMPARE, "current": item["element_info"], "history": resp["text"]})
                     self.msg = m_s_g + m
                     print(m)
                     self.testInfo[0]["msg"] = m
                     break
+            i = i + 1
         else:
             result = False
         return result

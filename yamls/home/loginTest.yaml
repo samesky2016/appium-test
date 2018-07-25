@@ -30,6 +30,13 @@ testcase:
 check:
     - element_info: com.jieshun.jslife:id/tv_user_sign
       find_type: id
-      check: 测试ha
+      msg: 胡国彪测试账号
+      check: compare
       operate_type: get_value
-      info: 登录成功
+      info: 签名信息
+    - element_info: com.jieshun.jslife:id/tv_user_name
+      find_type: id
+      msg: sky
+      check: compare
+      operate_type: get_value
+      info: 用户名称

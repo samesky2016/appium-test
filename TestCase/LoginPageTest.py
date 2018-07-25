@@ -9,16 +9,22 @@ PATH = lambda p: os.path.abspath(
 
 
 class LoginPageTest(ParametrizedTestCase):
-    # 登录捷生活APP
-    # unittest框架，测试用例首单词必须以test开头
-    def testLoginJslifeApp(self):
+    # 登录捷生活APP成功
+    def test_LoginJslifeApp(self):
         app = {"logTest": self.logTest, "driver": self.driver, "path": PATH("../yamls/home/loginTest.yaml"),
                "device": self.devicesName, "caseName": sys._getframe().f_code.co_name}
 
         page = LoginPage(app)
         page.operate()
         page.checkPoint()
+    # 捷生活注册校验
+    def register(self):
+        app = {"logTest": self.logTest, "driver": self.driver, "path": PATH("../yamls/home/registerTest.yaml"),
+               "device": self.devicesName, "caseName": sys._getframe().f_code.co_name}
 
+        page = LoginPage(app)
+        page.operate()
+        page.checkPoint()
 
 
     @classmethod
