@@ -1,0 +1,11 @@
+Appium-Python-Client
+PyYAML
+XlsxWriter
+certifi
+chardet
+configparser
+idna
+requests
+selenium
+setuptools
+urllib3
