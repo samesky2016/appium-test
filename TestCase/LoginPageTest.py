@@ -10,7 +10,7 @@ PATH = lambda p: os.path.abspath(
 
 class LoginPageTest(ParametrizedTestCase):
     # 登录捷生活APP成功
-    def test_LoginJslifeApp(self):
+    def test_loginJslifeApp(self):
         app = {"logTest": self.logTest, "driver": self.driver, "path": PATH("../yamls/home/loginTest.yaml"),
                "device": self.devicesName, "caseName": sys._getframe().f_code.co_name}
 
@@ -18,7 +18,7 @@ class LoginPageTest(ParametrizedTestCase):
         page.operate()
         page.checkPoint()
     # 捷生活注册校验
-    def register(self):
+    def test_register(self):
         app = {"logTest": self.logTest, "driver": self.driver, "path": PATH("../yamls/home/registerTest.yaml"),
                "device": self.devicesName, "caseName": sys._getframe().f_code.co_name}
 

@@ -41,7 +41,7 @@ def runnerPool(getDevices):
         _initApp["platformVersion"] = getPhoneInfo(devices=_initApp["deviceName"])["release"]
         _initApp["platformName"] = "android"
         _initApp["port"] = getDevices[i]["port"]
-        #_initApp["automationName"] = "uiautomator2"
+        _initApp["automationName"] = "uiautomator2"
         _initApp["systemPort"] = getDevices[i]["systemPort"]
 
         _initApp["app"] = getDevices[i]["app"]
@@ -78,7 +78,7 @@ if __name__ == '__main__':
             app = {}
             app["devices"] = dev
             # 注释掉重现安装
-            #init(dev)
+            init(dev)
             #生成appium端口，appium-desktop端口默认为：4723
             app["port"] = str(4723)
             #app["port"] = str(random.randint(4700, 4900))
