@@ -33,7 +33,7 @@ check:
       msg: 胡国彪测试账号
       check: compare
       operate_type: get_value
-      info: 签名信息
+      info: 用户昵称
     - element_info: com.jieshun.jslife:id/tv_user_name
       find_type: id
       msg: sky

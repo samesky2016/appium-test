@@ -9,15 +9,23 @@ V1.4.0
 p4
 sVpackingTime
 p5
-V2017/12/4 13:00
+V2018-08-14 18:27:46
 p6
 sVsum
 p7
-I0
+I1
 sVpass
 p8
 I0
 sVfail
 p9
-I0
+I1
+sVtestDate
+p10
+V2018-08-14 18:29:55
+p11
+sVtestSumDate
+p12
+V117\u79d2
+p13
 s.

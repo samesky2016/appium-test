@@ -60,7 +60,7 @@ class PagesObjects:
                 return False
             if item.get("is_time", "0") != "0":
                 time.sleep(item["is_time"])  # 等待时间
-                print("--等待下---")
+                print("------->>等待:"+str(item["is_time"])+"秒...")
 
             if item.get("operate_type", "0") == be.GET_VALUE or item.get("operate_type", "0") == be.GET_CONTENT_DESC:
                 self.get_value.append(result["text"])

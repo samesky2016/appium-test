@@ -1,3 +1,5 @@
+import datetime
+
 from Base.BaseElementEnmu import Element
 from Base.BasePickle import *
 from Base.BaseFile import *
@@ -19,7 +21,7 @@ def mk_file():
     # data["appVersion"] = apkInfo.getApkBaseInfo()[2]
     data["versionCode"] = "40"
     data["versionName"] = "1.4.0"
-    data["packingTime"] = "2017/12/4 13:00"
+    data["packingTime"] = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     data["sum"] = 0
     data["pass"] = 0
     data["fail"] = 0
