@@ -1,5 +1,5 @@
 testinfo:
-    - id: test001
+    - id: test002
       title: app登录
       info: 打开app
 testcase:

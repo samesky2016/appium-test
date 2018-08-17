@@ -1,0 +1,13 @@
+testinfo:
+    - id: test003
+      title: "我的"页面余额检查
+      info: 余额检查
+testcase:
+
+check:
+    - element_info: com.jieshun.jslife:id/my_wallet_count
+      find_type: id
+      msg: 0元
+      check: compare
+      operate_type: get_value
+      info: 余额

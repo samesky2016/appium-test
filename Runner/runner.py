@@ -9,6 +9,7 @@ from Base.BaseAndroidPhone import *
 from Base.BaseAdb import *
 from Base.BaseRunner import ParametrizedTestCase
 from TestCase.LoginPageTest import LoginPageTest
+from TestCase.MyPageTest import MyPageTest
 from Base.BaseAppiumServer import AppiumServer
 from multiprocessing import Pool
 import unittest
@@ -61,7 +62,7 @@ def runnerCaseApp(devices):
     starttime = datetime.now()
     suite = unittest.TestSuite()
     suite.addTest(ParametrizedTestCase.parametrize(LoginPageTest, param=devices))
-    # suite.addTest(ParametrizedTestCase.parametrize(HomeTest, param=devices)) #加入测试类
+    #suite.addTest(ParametrizedTestCase.parametrize(MyPageTest, param=devices)) #加入测试类
     unittest.TextTestRunner(verbosity=2).run(suite)
     endtime = datetime.now()
     countDate(datetime.now().strftime('%Y-%m-%d %H:%M:%S'), str((endtime - starttime).seconds) + "秒")
@@ -94,6 +95,6 @@ if __name__ == '__main__':
         writeExcel()
         appium_server.stop_server(l_devices)
         #发送邮件
-        sendEmail()
+        #sendEmail()
     else:
         print("没有可用的安卓设备")
