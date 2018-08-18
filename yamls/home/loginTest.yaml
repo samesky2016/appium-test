@@ -40,3 +40,9 @@ check:
       check: compare
       operate_type: get_value
       info: 用户名称
+    - element_info: com.jieshun.jslife:id/my_wallet_count
+      find_type: id
+      msg: 0元
+      check: compare
+      operate_type: get_value
+      info: 余额
