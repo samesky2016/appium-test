@@ -110,7 +110,7 @@ class PagesObjects:
         #     return kwargs["check_point"]
 
         if self.isOperate:
-            i=0
+
             for item in self.testcheck:
 
                 if item.get("check", be.DEFAULT_CHECK) == be.TOAST:
@@ -152,14 +152,14 @@ class PagesObjects:
                     self.testInfo[0]["msg"] = m
                     result = False
                     break
-                if item.get("check", be.DEFAULT_CHECK) == be.COMPARE and self.is_get and resp["text"] !=self.get_value[i].get('msg'):  # 历史数据和实际数据对比
+                if item.get("check", be.DEFAULT_CHECK) == be.COMPARE and self.is_get and resp["text"] !=item["msg"]:  # 历史数据和实际数据对比
                     result = False
-                    m = get_error({"type": be.COMPARE, "current": item["element_info"], "history": resp["text"]})
+                    m = get_error({"type": be.COMPARE, "current": item["msg"], "expectValue": resp["text"]})
                     self.msg = m_s_g + m
                     print(m)
                     self.testInfo[0]["msg"] = m
                     break
-            i = i + 1
+
         else:
             result = False
         return result
