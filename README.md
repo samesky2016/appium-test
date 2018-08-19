@@ -1,54 +1,55 @@
-# é¡¹ç›®ååŠç®€ä»‹
-* é¡¹ç›®å¼•ç”¨äºä½œè€…loseçš„å¼€æºé¡¹ç›®
-* åŸºäºappium+python3å°è£…çš„è‡ªåŠ¨åŒ–æµ‹è¯•æ¡†æ¶
+# ÏîÄ¿Ãû¼°¼ò½é
+* ÏîÄ¿ÒıÓÃÓÚ×÷ÕßloseµÄ¿ªÔ´ÏîÄ¿
+* »ùÓÚappium+python3·â×°µÄ×Ô¶¯»¯²âÊÔ¿ò¼Ü
 
-# ä»‹ç»
-* unittestå‚æ•°åŒ–
-* PageObjectåˆ†å±‚ç®¡ç†
-* æœ¬åœ°åŒ–å¤šæœºæ—¥å¿—ç®¡ç†
-* ç”¨ä¾‹ç¼–å†™åŸºäºyamlé…ç½®å¤šå…³é”®å­—é©±åŠ¨
-* æ”¯æŒå¤šè®¾å¤‡andoirdå¹¶è¡Œ
-* æ”¯æŒå¤±è´¥é‡è¿
-* è‡ªåŠ¨ç”Ÿæˆexcelæµ‹è¯•æŠ¥å‘Š
- æ”¯æŒæµ‹è¯•æŠ¥å‘Šï¼Œä»¥é‚®ä»¶å½¢å¼å‘é€åˆ°ç›¸å…³äººé‚®ç®±
+# ½éÉÜ
+* unittest²ÎÊı»¯
+* PageObject·Ö²ã¹ÜÀí
+* ±¾µØ»¯¶à»úÈÕÖ¾¹ÜÀí
+* ÓÃÀı±àĞ´»ùÓÚyamlÅäÖÃ¶à¹Ø¼ü×ÖÇı¶¯
+* Ö§³Ö¶àÉè±¸andoird²¢ĞĞ
+* Ö§³ÖÊ§°ÜÖØÁ¬
+* ×Ô¶¯Éú³Éexcel²âÊÔ±¨¸æ£¬Ö§³Ö²âÊÔ±¨¸æ£¬ÒÔÓÊ¼şĞÎÊ½·¢ËÍµ½Ïà¹ØÈËÓÊÏä
+* Ö§³Ötoast¼ì²â
+* µ÷ÕûÂÖÑ¯ÆµÂÊ£¬ÌáÉıÔªËØÊ¶±ğËÙ¶È
 
 
 
-## å‘½ä»¤è¿è¡Œ
-* pip install -r requirements.txt  #æ³¨æ„ï¼Œå¦‚æœå‡ºç°é”™è¯¯ä¸è¦è·³è¿‡ï¼Œè¯·æ ¹æ®é”™è¯¯ä¿¡æ¯å°è¯•è§£å†³
+## ÃüÁîÔËĞĞ
+* pip install -r requirements.txt  #×¢Òâ£¬Èç¹û³öÏÖ´íÎó²»ÒªÌø¹ı£¬Çë¸ù¾İ´íÎóĞÅÏ¢³¢ÊÔ½â¾ö
 ```
 python runner.py
 ```
 
 
-# ç»“æœå±•ç¤º
+# ½á¹ûÕ¹Ê¾
 
-**æ—¥å¿—ç›®å½•**
+**ÈÕÖ¾Ä¿Â¼**
 
-æ–‡ä»¶å¤¹ï¼šsamsung_GT-I9500_android_4.4ï¼ŒåŒ…å«æˆªå›¾
+ÎÄ¼ş¼Ğ£ºsamsung_GT-I9500_android_4.4£¬°üº¬½ØÍ¼
 
 ```
-2017-06-07 19:39:35,972  - INFO - ----  test001_ç¬¬ä¸€æ¬¡æ‰“å¼€_android.widget.ImageView   START     ----
+2017-06-07 19:39:35,972  - INFO - ----  test001_µÚÒ»´Î´ò¿ª_android.widget.ImageView   START     ----
 2017-06-07 19:39:44,433  - INFO - [CheckPoint_1]: FirstOpenTest: NG
-2017-06-07 19:40:02,013  - INFO - ----  test0002_ç™»å½•_com.jianshu.haruki:id/btn_login   START     ----
-2017-06-07 19:40:03,075  - INFO - ----  test0002_ç™»å½•_com.jianshu.haruki:id/et_tel   START     ----
-2017-06-07 19:40:07,460  - INFO - ----  test0002_ç™»å½•_com.jianshu.haruki:id/et_password   START     ----
-2017-06-07 19:40:08,480  - INFO - ----  test0002_ç™»å½•_com.jianshu.haruki:id/btn_register_1   START     ----
-2017-06-07 19:40:13,640  - INFO - ----  test0002_ç™»å½•_//android.widget.ImageView[@index='0']   START     ----
-2017-09-23 17:28:26,074  - INFO - [CheckPoint_1]: TechZoneDetailTest_è¯·æ£€æŸ¥å…ƒç´ //*[@id="app"]/div/div[2]/section[2]/div[1]/divæ˜¯å¦å­˜åœ¨: NG
+2017-06-07 19:40:02,013  - INFO - ----  test0002_µÇÂ¼_com.jianshu.haruki:id/btn_login   START     ----
+2017-06-07 19:40:03,075  - INFO - ----  test0002_µÇÂ¼_com.jianshu.haruki:id/et_tel   START     ----
+2017-06-07 19:40:07,460  - INFO - ----  test0002_µÇÂ¼_com.jianshu.haruki:id/et_password   START     ----
+2017-06-07 19:40:08,480  - INFO - ----  test0002_µÇÂ¼_com.jianshu.haruki:id/btn_register_1   START     ----
+2017-06-07 19:40:13,640  - INFO - ----  test0002_µÇÂ¼_//android.widget.ImageView[@index='0']   START     ----
+2017-09-23 17:28:26,074  - INFO - [CheckPoint_1]: TechZoneDetailTest_Çë¼ì²éÔªËØ//*[@id="app"]/div/div[2]/section[2]/div[1]/divÊÇ·ñ´æÔÚ: NG
 ```
 
 
 
-**æµ‹è¯•æŠ¥å‘Š**
+**²âÊÔ±¨¸æ**
 
 ![sum.png](Img/sum.png "sum.png")
 
 ![detail.jpg](Img/detail.jpg "detail.jpg")
 
-# å…¶ä»– 
-* [æµ‹è¯•ç”¨ä¾‹å…³é”®å­—é©±åŠ¨è¯´æ˜](mark.md)
-* [ä½¿ç”¨å®ä¾‹](use.md)
+# ÆäËû 
+* [²âÊÔÓÃÀı¹Ø¼ü×ÖÇı¶¯ËµÃ÷](mark.md)
+* [Ê¹ÓÃÊµÀı](use.md)
 * [changelog](CHANGELOG.md)
 
 
