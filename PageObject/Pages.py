@@ -22,7 +22,7 @@ class PagesObjects:
 
     def __init__(self, kwargs):
         self.driver = kwargs["driver"]
-        if kwargs.get("launch_app", "0") == "0":  # 若为空，重新打开app
+        if kwargs.get("launch_app","0") != "0":  # 若为空，重新打开app
             self.driver.launch_app()
         # self.path = kwargs["path"]
         self.operateElement = OperateElement(self.driver)

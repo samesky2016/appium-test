@@ -45,8 +45,14 @@ def appium_testcase(devices):
     remote = "http://127.0.0.1:" + str(devices["port"]) + "/wd/hub"
     # remote = "http://127.0.0.1:" + "4723" + "/wd/hub"
 
-    driver = webdriver.Remote(remote, desired_caps)
-    return driver
+    try:
+        driver = webdriver.Remote(remote, desired_caps)
+
+        return driver,"0"
+    except:
+
+        return driver,"1"
+
 
 
 class ParametrizedTestCase(unittest.TestCase):
@@ -57,12 +63,15 @@ class ParametrizedTestCase(unittest.TestCase):
     def __init__(self, methodName='runTest', param=None):
         super(ParametrizedTestCase, self).__init__(methodName)
         global devicess
+
         devicess = param
+
 
     @classmethod
     def setUpClass(cls):
         pass
-        cls.driver = appium_testcase(devicess)
+        # 注释掉通过unittest方式初始化基础数据，造成外部调用拿不到driver等数据
+        cls.driver, cls.launch_app = appium_testcase(devicess)
         cls.devicesName = devicess["deviceName"]
         cls.logTest = myLog().getLog(cls.devicesName)  # 每个设备实例化一个日志记录器
 

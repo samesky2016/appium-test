@@ -13,7 +13,10 @@ PATH = lambda p: os.path.abspath(
 class MyPageTest(ParametrizedTestCase):
     # 我的页面检查余额
     def test_myBalance(self):
-        app = {"logTest": self.logTest, "driver": self.driver, "path": PATH("../yamls/home/myBalanceTest.yaml"),
+        #lpt=LoginPageTest()
+        LoginPageTest.test_loginJslifeApp(self,False)
+
+        app = {"logTest": self.logTest, "driver": self.driver, "path": PATH("../yamls/myPage/myBalanceTest.yaml"),
                "device": self.devicesName, "caseName": sys._getframe().f_code.co_name}
 
         page = MyPage(app)
@@ -21,7 +24,7 @@ class MyPageTest(ParametrizedTestCase):
         page.checkPoint()
     # 我的页面检查卡券
     def myVoucher(self):
-        app = {"logTest": self.logTest, "driver": self.driver, "path": PATH("../yamls/home/registerTest.yaml"),
+        app = {"logTest": self.logTest, "launch_app":self.launch_app,"driver": self.driver, "path": PATH("../yamls/home/registerTest.yaml"),
                "device": self.devicesName, "caseName": sys._getframe().f_code.co_name}
 
         page = MyPage(app)
@@ -31,8 +34,6 @@ class MyPageTest(ParametrizedTestCase):
 
     @classmethod
     def setUpClass(cls):
-        #loginPageTest=LoginPageTest()
-        LoginPageTest.test_loginJslifeApp(ParametrizedTestCase)
         super(MyPageTest, cls).setUpClass()
 
     @classmethod

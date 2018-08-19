@@ -11,7 +11,7 @@ PATH = lambda p: os.path.abspath(
 class LoginPageTest(ParametrizedTestCase):
     # 登录捷生活APP成功
     def test_loginJslifeApp(self,isCheck=True):
-        app = {"logTest": self.logTest, "driver": self.driver, "path": PATH("../yamls/home/loginTest.yaml"),
+        app = {"logTest": self.logTest, "launch_app":self.launch_app,"driver": self.driver, "path": PATH("../yamls/home/loginTest.yaml"),
                "device": self.devicesName, "caseName": sys._getframe().f_code.co_name}
 
         page = LoginPage(app)

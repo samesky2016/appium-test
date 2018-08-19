@@ -1,9 +1,13 @@
 testinfo:
     - id: test003
-      title: "我的"页面余额检查
+      title: 余额检查
       info: 余额检查
 testcase:
-
+    - element_info: com.jieshun.jslife:id/tv_user_page
+      find_type: id
+      is_time: 1
+      operate_type: click
+      info: 点击我的
 check:
     - element_info: com.jieshun.jslife:id/my_wallet_count
       find_type: id
