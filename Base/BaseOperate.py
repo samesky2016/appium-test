@@ -143,7 +143,7 @@ class OperateElement:
     def toast(self, xpath, logTest, testInfo):
         logTest.buildStartLine(testInfo[0]["id"] + "_" + testInfo[0]["title"] + "_" + "查找弹窗元素_" + xpath)  # 记录日志
         try:
-            WebDriverWait(self.driver, 10, 0.01).until(
+            WebDriverWait(self.driver, 10, 0.1).until(
                 expected_conditions.presence_of_element_located((By.XPATH, xpath)))
                 #expected_conditions.presence_of_element_located((By.PARTIAL_LINK_TEXT, "已经被注册过")))
 
