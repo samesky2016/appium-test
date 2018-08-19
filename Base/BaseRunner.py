@@ -33,7 +33,7 @@ def appium_testcase(devices):
     desired_caps['platformVersion'] = devices["platformVersion"]
     desired_caps['platformName'] = devices["platformName"]
     #uiautomation2 支持
-    #desired_caps["automationName"] = devices['automationName']
+    desired_caps["automationName"] = devices['automationName']
     desired_caps['deviceName'] = devices["deviceName"]
     desired_caps["noReset"] = "False"
     desired_caps['noSign'] = "True"

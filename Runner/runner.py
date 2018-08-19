@@ -81,8 +81,8 @@ if __name__ == '__main__':
             # 注释掉重现安装
             init(dev)
             #生成appium端口，appium-desktop端口默认为：4723
-            app["port"] = str(4723)
-            #app["port"] = str(random.randint(4700, 4900))
+            #app["port"] = str(4723)
+            app["port"] = str(random.randint(4700, 4900))
             app["bport"] = str(random.randint(4700, 4900))
             app["systemPort"] = str(random.randint(4700, 4900))
             app["app"] = PATH("../app/com.jieshun.jslife.apk") # 测试的app路径,喜马拉雅app
