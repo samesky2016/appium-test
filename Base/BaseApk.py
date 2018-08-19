@@ -1,5 +1,7 @@
 import re
 
+from Base.BaseStatistics import countRelease
+
 __author__ = 'shikun'
 from math import floor
 import subprocess
@@ -33,6 +35,7 @@ class ApkInfo():
         print('packagename:' + packagename)
         print('versionCode:' + versionCode)
         print('versionName:' + versionName)
+        countRelease(versionCode,versionName)
         return packagename, versionName, versionCode
 
     #得到应用名字

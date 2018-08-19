@@ -19,8 +19,8 @@ def mk_file():
     # data["appName"] = apkInfo.getApkName()
     # data["appSize"] = apkInfo.getApkSize()
     # data["appVersion"] = apkInfo.getApkBaseInfo()[2]
-    data["versionCode"] = "40"
-    data["versionName"] = "1.4.0"
+    data["versionCode"] = "302010"
+    data["versionName"] = "3.2.2"
     data["packingTime"] = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     data["sum"] = 0
     data["pass"] = 0

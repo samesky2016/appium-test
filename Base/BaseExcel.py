@@ -28,18 +28,18 @@ class OperateReport:
         worksheet.set_row(7, 30)
         worksheet.set_row(8, 30)
 
-        define_format_H1 = get_format(self.wd, {'bold': True, 'font_size': 18})
-        define_format_H2 = get_format(self.wd, {'bold': True, 'font_size': 14})
+        define_format_H1 = get_format(self.wd, {'bold': True, 'font_size': 18,'valign': 'vcenter'})
+        define_format_H2 = get_format(self.wd, {'bold': True, 'font_size': 14,'valign': 'vcenter'})
         define_format_H1.set_border(1)
 
         define_format_H2.set_border(1)
         define_format_H1.set_align("center")
         define_format_H2.set_align("center")
-        define_format_H2.set_bg_color("blue")
+        define_format_H2.set_bg_color("#1E90FF")
         define_format_H2.set_color("#ffffff")
 
         worksheet.merge_range('A1:E1', '测试报告总概况', define_format_H1)
-        worksheet.merge_range('A2:E2', 'WebLink知识测试概括', define_format_H2)
+        worksheet.merge_range('A2:E2', 'Appium-Testing(测试与质量保证部)', define_format_H2)
 
         _write_center(worksheet, "A3", 'versionCode', self.wd)
         _write_center(worksheet, "A4", 'versionName', self.wd)
@@ -64,7 +64,7 @@ class OperateReport:
 
         _write_center(worksheet, "E3", "脚本语言", self.wd)
 
-        worksheet.merge_range('E4:E6', 'appium1.8+python3', get_format_center(self.wd))
+        worksheet.merge_range('E4:E6', 'appium1.8+python3', get_format(self.wd,{'bold': True, 'font_size': 11,'align': 'center', 'valign': 'vcenter', 'border': 1}))
         _write_center(worksheet, "A8", '机型', self.wd)
         _write_center(worksheet, "B8", '通过', self.wd)
         _write_center(worksheet, "C8", '失败', self.wd)
@@ -103,7 +103,7 @@ class OperateReport:
         worksheet.set_row(10, 30)
 
         worksheet.merge_range('A1:J1', '测试详情', get_format(self.wd, {'bold': True, 'font_size': 18, 'align': 'center',
-                                                                    'valign': 'vcenter', 'bg_color': 'blue',
+                                                                    'valign': 'vcenter', 'bg_color': '#1E90FF',
                                                                     'font_color': '#ffffff'}))
         _write_center(worksheet, "A2", '机型', self.wd)
         _write_center(worksheet, "B2", '用例ID', self.wd)

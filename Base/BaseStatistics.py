@@ -141,6 +141,18 @@ def countDate(testDate, testSumDate):
         print("统计数据失败")
 
 
+
+def countRelease(versionCode, versionName):
+    print("--------- countDate------")
+    data = read(PATH("../Log/" + Element.SUM_FILE))
+    print(data)
+    if data:
+        data["versionCode"] = versionCode
+        data["versionName"] = versionName
+        write(data=data, path=PATH("../Log/" + Element.SUM_FILE))
+    else:
+        print("统计数据失败")
+
 '''
 测试报告
 '''
