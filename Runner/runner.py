@@ -85,7 +85,7 @@ if __name__ == '__main__':
             app["port"] = str(random.randint(4700, 4900))
             app["bport"] = str(random.randint(4700, 4900))
             app["systemPort"] = str(random.randint(4700, 4900))
-            app["app"] = PATH("../app/com.jieshun.jslife.apk") # 测试的app路径,喜马拉雅app
+            app["app"] = PATH("../app/com.jieshun.jslife.apk") # 测试的app路径,捷生活app
 
             l_devices.append(app)
 

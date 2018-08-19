@@ -18,7 +18,10 @@ class Element(object):
     SWIPE_LEFT = "swipe_left"
     SET_VALUE = "set_value"
     GET_VALUE = "get_value"
+    #查找元素的超时时间
     WAIT_TIME = 20
+    #查找元素时的轮训时间，默认是0.5秒，容易报找不到元素的错误。
+    POLL_FREQUENCY=0.1
     PRESS_KEY_CODE = "press_keycode"
 
     GET_CONTENT_DESC = "get_content_desc"

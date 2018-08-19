@@ -41,7 +41,7 @@ class OperateElement:
                     # if item.get("element_info", "0") == "0":  # 如果没有页面元素，就不检测是页面元素，可能是滑动等操作
                     #     return {"result": True}
                     t = item["check_time"] if item.get("check_time", "0") != "0" else be.WAIT_TIME
-                    WebDriverWait(self.driver, t).until(lambda x: self.elements_by(item))
+                    WebDriverWait(self.driver, t,be.POLL_FREQUENCY).until(lambda x: self.elements_by(item))
                 return {"result": True}
             if type(mOperate) == dict:  # 单检查点
                 if mOperate.get("is_webview", "0") == 1 and self.switchToWebview() is False:  # 1表示切换到webview
@@ -53,7 +53,7 @@ class OperateElement:
                     return {"result": True}
                 t = mOperate["check_time"] if mOperate.get("check_time",
                                                            "0") != "0" else be.WAIT_TIME  # 如果自定义检测时间为空，就用默认的检测等待时间
-                WebDriverWait(self.driver, t).until(lambda x: self.elements_by(mOperate))  # 操作元素是否存在
+                WebDriverWait(self.driver, t,be.POLL_FREQUENCY).until(lambda x: self.elements_by(mOperate))  # 操作元素是否存在
                 return {"result": True}
         except selenium.common.exceptions.TimeoutException:
             # print("==查找元素超时==")
@@ -143,7 +143,7 @@ class OperateElement:
     def toast(self, xpath, logTest, testInfo):
         logTest.buildStartLine(testInfo[0]["id"] + "_" + testInfo[0]["title"] + "_" + "查找弹窗元素_" + xpath)  # 记录日志
         try:
-            WebDriverWait(self.driver, 10, 0.1).until(
+            WebDriverWait(self.driver, be.WAIT_TIME, be.POLL_FREQUENCY).until(
                 expected_conditions.presence_of_element_located((By.XPATH, xpath)))
                 #expected_conditions.presence_of_element_located((By.PARTIAL_LINK_TEXT, "已经被注册过")))
 
@@ -291,7 +291,7 @@ class OperateElement:
             button_list = [button0]
             for elem in button_list:
                 find = self.driver.find_element_by_id(elem)
-                WebDriverWait(self.driver, 1).until(lambda x: self.elements_by(find(elem)))
+                WebDriverWait(self.driver, be.WAIT_TIME).until(lambda x: self.elements_by(find(elem)))
                 bounds = find.location
                 x = str(bounds["x"])
                 y = str(bounds["y"])

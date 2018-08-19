@@ -5,6 +5,7 @@ testinfo:
 testcase:
     - element_info: com.jieshun.jslife:id/ic_guide_past
       find_type: id
+      check_time: 1
       operate_type: click
       info: 跳过欢迎界面
     - element_info: com.jieshun.jslife:id/tv_register
