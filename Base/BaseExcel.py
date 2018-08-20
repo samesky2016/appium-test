@@ -126,7 +126,7 @@ class OperateReport:
             _write_center(worksheet, "E" + str(temp), item["info"], self.wd)
             _write_center(worksheet, "F" + str(temp), item["step"], self.wd)
             _write_center(worksheet, "G" + str(temp), item["checkStep"], self.wd)
-            _write_center(worksheet, "H" + str(temp), item["result"], self.wd)
+            _write_center_hance(worksheet, "H" + str(temp), item["result"],self.wd)
             _write_center(worksheet, "I" + str(temp), item.get("msg", ""), self.wd)
             if item.get("img", "false") == "false":
                 _write_center(worksheet, "J" + str(temp), "", self.wd)
@@ -155,6 +155,11 @@ def get_format(wd, option={}):
 def get_format_center(wd, num=1):
     return wd.add_format({'align': 'center', 'valign': 'vcenter', 'border': num})
 
+def get_format_center1(wd, num=1):
+    return wd.add_format({ 'border': num,'bold': True,  'align': 'center',
+                                                                    'valign': 'vcenter',
+                                                                    'font_color': '#7CFC00'})
+
 
 def set_border_(wd, num=1):
     return wd.add_format({}).set_border(num)
@@ -163,6 +168,8 @@ def set_border_(wd, num=1):
 def _write_center(worksheet, cl, data, wd):
     return worksheet.write(cl, data, get_format_center(wd))
 
+def _write_center_hance(worksheet, cl, data,wd):
+    return worksheet.write(cl, data, get_format_center1(wd))
 
 def set_row(worksheet, num, height):
     worksheet.set_row(num, height)

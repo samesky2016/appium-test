@@ -1,7 +1,7 @@
 testinfo:
     - id: test002
-      title: app登录
-      info: 打开app
+      title: app注册检查
+      info: app注册
 testcase:
     - element_info: com.jieshun.jslife:id/ic_guide_past
       find_type: id

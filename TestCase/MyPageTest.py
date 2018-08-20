@@ -13,24 +13,27 @@ PATH = lambda p: os.path.abspath(
 class MyPageTest(ParametrizedTestCase):
     # 我的页面检查余额
     def test_myBalance(self):
-        #lpt=LoginPageTest()
-        LoginPageTest.test_loginJslifeApp(self,False)
-
-        app = {"logTest": self.logTest, "driver": self.driver, "path": PATH("../yamls/myPage/myBalanceTest.yaml"),
+        app = {"logTest": self.logTest, "launch_app":self.launch_app,"driver": self.driver, "path": PATH("../yamls/myPage/myBalanceTest.yaml"),
                "device": self.devicesName, "caseName": sys._getframe().f_code.co_name}
-
         page = MyPage(app)
         page.operate()
         page.checkPoint()
     # 我的页面检查卡券
-    def myVoucher(self):
-        app = {"logTest": self.logTest, "launch_app":self.launch_app,"driver": self.driver, "path": PATH("../yamls/home/registerTest.yaml"),
+    def test_myVoucher(self):
+        app = {"logTest": self.logTest, "launch_app":self.launch_app,"driver": self.driver, "path": PATH("../yamls/myPage/myVoucherTest.yaml"),
                "device": self.devicesName, "caseName": sys._getframe().f_code.co_name}
 
         page = MyPage(app)
         page.operate()
         page.checkPoint()
+    # 卡券详情页面检查
+    def test_myVoucher_detail(self):
+        app = {"logTest": self.logTest, "launch_app":self.launch_app,"driver": self.driver, "path": PATH("../yamls/myPage/myVoucherDetailTest.yaml"),
+               "device": self.devicesName, "caseName": sys._getframe().f_code.co_name}
 
+        page = MyPage(app)
+        page.operate()
+        page.checkPoint()
 
     @classmethod
     def setUpClass(cls):

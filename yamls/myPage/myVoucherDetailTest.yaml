@@ -1,7 +1,7 @@
 testinfo:
-    - id: test001
-      title: app登录
-      info: app登录
+    - id: test005
+      title: 我的卡券
+      info: 我的卡券
 testcase:
     - element_info: com.jieshun.jslife:id/ic_guide_past
       find_type: id
@@ -26,29 +26,32 @@ testcase:
       is_time: 1
       operate_type: click
       info: 点击我的
-
-check:
-    - element_info: com.jieshun.jslife:id/tv_user_sign
-      find_type: id
-      msg: 胡国彪测试账号
-      check: compare
-      operate_type: get_value
-      info: 用户昵称
-    - element_info: com.jieshun.jslife:id/tv_user_name
-      find_type: id
-      msg: sky
-      check: compare
-      operate_type: get_value
-      info: 用户名称
-    - element_info: com.jieshun.jslife:id/my_wallet_count
-      find_type: id
-      msg: 0元
-      check: compare
-      operate_type: get_value
-      info: 余额
     - element_info: com.jieshun.jslife:id/my_card_volume_count
       find_type: id
-      msg: 2张
+      operate_type: click
+      info: 查看卡券详情
+check:
+    - element_info: com.jieshun.jslife:id/aclpcl_tv_unused
+      find_type: id
+      msg: 未使用(2)
       check: compare
       operate_type: get_value
-      info: 卡券
+      info: 未使用卡券
+    - element_info: com.jieshun.jslife:id/aclpcl_tv_over_time
+      find_type: id
+      msg: 已过期(2)
+      check: compare
+      operate_type: get_value
+      info: 已过期卡券
+    - element_info: com.jieshun.jslife:id/aclpcl_tv_used
+      find_type: id
+      msg: 已使用(0)
+      check: compare
+      operate_type: get_value
+      info: 已使用卡券
+    - element_info: com.jieshun.jslife:id/activity_car_life_parking_coupon_listitem_title_tv
+      find_type: id
+      msg: 1.00元停车券
+      check: compare
+      operate_type: get_value
+      info: 卡券面额

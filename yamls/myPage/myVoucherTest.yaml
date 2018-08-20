@@ -1,7 +1,7 @@
 testinfo:
-    - id: test003
-      title: 余额检查
-      info: 余额检查
+    - id: test004
+      title: 卡券数量检查
+      info: 卡券检查
 testcase:
     - element_info: com.jieshun.jslife:id/ic_guide_past
       find_type: id
@@ -27,9 +27,9 @@ testcase:
       operate_type: click
       info: 点击我的
 check:
-    - element_info: com.jieshun.jslife:id/my_wallet_count
+    - element_info: com.jieshun.jslife:id/my_card_volume_count
       find_type: id
-      msg: 0元
+      msg: 2张
       check: compare
       operate_type: get_value
-      info: 余额
+      info: 卡券
