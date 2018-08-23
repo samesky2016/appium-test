@@ -61,8 +61,9 @@ def runnerPool(getDevices):
 def runnerCaseApp(devices):
     starttime = datetime.now()
     suite = unittest.TestSuite()
-    suite.addTest(ParametrizedTestCase.parametrize(LoginPageTest, param=devices))
+    #suite.addTest(ParametrizedTestCase.parametrize(LoginPageTest, param=devices))
     suite.addTest(ParametrizedTestCase.parametrize(MyPageTest, param=devices)) #加入测试类
+
     unittest.TextTestRunner(verbosity=2).run(suite)
     endtime = datetime.now()
     countDate(datetime.now().strftime('%Y-%m-%d %H:%M:%S'), str((endtime - starttime).seconds) + "秒")

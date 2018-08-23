@@ -132,7 +132,7 @@ def countSum(result):
 def countDate(testDate, testSumDate):
     print("--------- countDate------")
     data = read(PATH("../Log/" + Element.SUM_FILE))
-    print(data)
+    # print(data)
     if data:
         data["testDate"] = testDate
         data["testSumDate"] = testSumDate
@@ -145,7 +145,7 @@ def countDate(testDate, testSumDate):
 def countRelease(versionCode, versionName):
     print("--------- countDate------")
     data = read(PATH("../Log/" + Element.SUM_FILE))
-    print(data)
+    #print(data)
     if data:
         data["versionCode"] = versionCode
         data["versionName"] = versionName

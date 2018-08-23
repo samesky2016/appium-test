@@ -2,20 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddb0de69-ad6e-4042-9b9f-25fcf6c5fbf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/yamls/myPage/myVoucherDetailTest.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yamls/myPage/myVoucherTest.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/appium.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/appium.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yamls/myPage/unusedVoucherDetailTest.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Base/BaseExcel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Base/BaseExcel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Base/BaseRunner.py" beforeDir="false" afterPath="$PROJECT_DIR$/Base/BaseRunner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base/BaseStatistics.py" beforeDir="false" afterPath="$PROJECT_DIR$/Base/BaseStatistics.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Log/sum.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/Log/sum.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageObject/Pages.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObject/Pages.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Report/Report.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Report/Report.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Runner/runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/Runner/runner.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestCase/MyPageTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/MyPageTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yamls/home/loginTest.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/yamls/home/loginTest.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yamls/home/registerTest.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/yamls/home/registerTest.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yamls/myPage/myBalanceTest.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/yamls/myPage/myBalanceTest.yaml" afterDir="false" />
     </list>
     <ignored path="D:\appium\.idea\shelf/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,7 +21,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/appium$BaseApk.coverage" NAME="BaseApk Coverage Results" MODIFIED="1532061188542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Base" />
-    <SUITE FILE_PATH="coverage/appium$runner__1_.coverage" NAME="runner (1) Coverage Results" MODIFIED="1534765147180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Runner" />
+    <SUITE FILE_PATH="coverage/appium$runner__1_.coverage" NAME="runner (1) Coverage Results" MODIFIED="1535017758040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Runner" />
     <SUITE FILE_PATH="coverage/appium$BaseExcel.coverage" NAME="BaseExcel Coverage Results" MODIFIED="1532393515884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Base" />
     <SUITE FILE_PATH="coverage/appium$BaseEmail.coverage" NAME="BaseEmail Coverage Results" MODIFIED="1532314485142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Base" />
   </component>
@@ -38,21 +32,21 @@
     <favorites_list name="appium" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="runner.py" pinned="false" current-in-tab="true">
+    <leaf>
+      <file leaf-file-name="runner.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Runner/runner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="80" column="21" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+            <state relative-caret-position="102">
+              <caret line="95" column="20" selection-start-line="95" selection-start-column="20" selection-end-line="95" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="myVoucherDetailTest.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yamls/myPage/myVoucherDetailTest.yaml">
+      <file leaf-file-name="BaseError.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Base/BaseError.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+            <state relative-caret-position="-20">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -60,11 +54,38 @@
       <file leaf-file-name="MyPageTest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestCase/MyPageTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
-              <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+            <state relative-caret-position="548">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
               <folding>
                 <element signature="e#1#49#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyPage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PageObject/My/MyPage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="134">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pages.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PageObject/Pages.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="127" column="51" lean-forward="true" selection-start-line="127" selection-start-column="51" selection-end-line="127" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseOperate.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Base/BaseOperate.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-668">
+              <caret line="95" column="12" selection-start-line="95" selection-start-column="12" selection-end-line="95" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -81,12 +102,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>send_keys</find>
-      <find>setUpModule</find>
-      <find>activi</find>
-      <find>datetime</find>
-      <find>--</find>
-      <find>date</find>
       <find>self.data</find>
       <find>detail</find>
       <find>read</find>
@@ -111,11 +126,18 @@
       <find>toast</find>
       <find>B5</find>
       <find>sum</find>
+      <find>OK</find>
+      <find>----------------------------------------</find>
+      <find>------------------------------------------------------------------------</find>
+      <find>countDate</find>
+      <find>期望</find>
+      <find>resp-------&gt;&gt;</find>
     </findStrings>
     <replaceStrings>
       <replace>driver</replace>
       <replace>data</replace>
       <replace>XXX</replace>
+      <replace />
     </replaceStrings>
     <dirStrings>
       <dir>D:\appium\yamls</dir>
@@ -133,7 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Log/Huawei_H60-L02_android_4.4.220170703140919/outPut.log" />
         <option value="$PROJECT_DIR$/Log/Huawei_H60-L02_android_4.4.220170703141359/outPut.log" />
         <option value="$PROJECT_DIR$/yaml/write.yaml" />
         <option value="$PROJECT_DIR$/PageObject/WritePage.py" />
@@ -153,7 +174,6 @@
         <option value="$PROJECT_DIR$/PageObject/Home/HomeSearchHistoryPage.py" />
         <option value="$PROJECT_DIR$/PageObject/Home/FirstOpenPage.py" />
         <option value="$PROJECT_DIR$/Runner/test.py" />
-        <option value="$PROJECT_DIR$/Base/BaseStatistics.py" />
         <option value="$PROJECT_DIR$/Base/BasePickle.py" />
         <option value="$PROJECT_DIR$/Base/BaseYaml.py" />
         <option value="$PROJECT_DIR$/use.md" />
@@ -170,7 +190,6 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Base/BaseOperate.py" />
         <option value="$PROJECT_DIR$/Base/BaseInit.py" />
-        <option value="$PROJECT_DIR$/PageObject/Pages.py" />
         <option value="$PROJECT_DIR$/PageObject/Home/LoginPage.py" />
         <option value="$PROJECT_DIR$/PageObject/My/MyPage.py" />
         <option value="$PROJECT_DIR$/TestCase/MyHomePageTest.py" />
@@ -181,9 +200,12 @@
         <option value="$PROJECT_DIR$/yamls/myPage/myVoucherTest.yaml" />
         <option value="$PROJECT_DIR$/Base/BaseExcel.py" />
         <option value="$PROJECT_DIR$/yamls/home/registerTest.yaml" />
+        <option value="$PROJECT_DIR$/yamls/myPage/myVoucherDetailTest.yaml" />
+        <option value="$PROJECT_DIR$/Base/BaseStatistics.py" />
+        <option value="$PROJECT_DIR$/yamls/myPage/unusedVoucherDetailTest.yaml" />
         <option value="$PROJECT_DIR$/Runner/runner.py" />
         <option value="$PROJECT_DIR$/TestCase/MyPageTest.py" />
-        <option value="$PROJECT_DIR$/yamls/myPage/myVoucherDetailTest.yaml" />
+        <option value="$PROJECT_DIR$/PageObject/Pages.py" />
       </list>
     </option>
   </component>
@@ -229,6 +251,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -239,23 +262,12 @@
             <path>
               <item name="appium" type="b2602c69:ProjectViewProjectNode" />
               <item name="appium" type="462c0819:PsiDirectoryNode" />
-              <item name="Base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="appium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="appium" type="462c0819:PsiDirectoryNode" />
-              <item name="PageObject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="appium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="appium" type="462c0819:PsiDirectoryNode" />
-              <item name="PageObject" type="462c0819:PsiDirectoryNode" />
-              <item name="My" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="appium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="appium" type="462c0819:PsiDirectoryNode" />
               <item name="Report" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="appium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="appium" type="462c0819:PsiDirectoryNode" />
+              <item name="Runner" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="appium" type="b2602c69:ProjectViewProjectNode" />
@@ -283,7 +295,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -298,12 +309,6 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\demo\appium\PageObject\Home" />
-      <recent name="D:\app\appium\yaml" />
-      <recent name="D:\app\appium\test" />
-      <recent name="D:\app\appium\resources" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\appium\yamls\myPage" />
       <recent name="D:\appium\PageObject\My" />
@@ -311,141 +316,12 @@
       <recent name="D:\appium\yamls\home" />
       <recent name="D:\appium\Base" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/appium.iml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/misc.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Base/BaseApk.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Base/BaseElementEnmu.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Base/BaseError.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Base/BaseExcel.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Base/BaseInit.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Base/BaseOperate.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Base/BaseRunner.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Base/BaseStatistics.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/CHANGELOG.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Img/detail.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Img/sum.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Log/sum.pickle</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/PageObject/Home/LoginPage.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/PageObject/My/MyPage.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/PageObject/Pages.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Report/Report.xlsx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Runner/runner.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/TestCase/LoginPageTest.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/TestCase/MyPageTest.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/yamls/home/loginTest.yaml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/yamls/home/registerTest.yaml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/yamls/myPage/myBalanceTest.yaml</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\demo\appium\PageObject\Home" />
+      <recent name="D:\app\appium\yaml" />
+      <recent name="D:\app\appium\test" />
+      <recent name="D:\app\appium\resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -704,7 +580,14 @@
       <option name="project" value="LOCAL" />
       <updated>1534487593224</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="1、增加用例；&#10;2、优化报表。">
+      <created>1534765755198</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1534765755198</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -747,68 +630,56 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50277776" side_tool="true" weight="0.5361367" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50277776" side_tool="true" weight="0.325887" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49791667" weight="0.328084" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49722221" weight="0.325887" />
       <window_info anchor="bottom" id="Python Console" order="8" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49722221" visible="true" weight="0.53350854" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19027779" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49761337" weight="0.32063076" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.37713534" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13958333" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.325887" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49861112" weight="0.16031538" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49861112" visible="true" weight="0.37450722" />
       <window_info id="Designer" order="4" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Python Console" order="8" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49761337" weight="0.5361367" />
       <window_info id="Image Layers" order="7" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5013889" side_tool="true" weight="0.29434955" />
       <window_info anchor="bottom" id="Messages" order="7" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19027779" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49791667" weight="0.328084" />
       <window_info anchor="bottom" id="SVN Repositories" order="7" sideWeight="0.49930555" visible="true" weight="0.3298292" />
       <window_info id="Nl-Palette" order="2" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.325887" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" id="Properties" order="5" />
-      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Data View" order="7" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49861112" visible="true" weight="0.40473062" />
     </layout>
     <layout-to-restore>
       <window_info id="Designer" order="4" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Properties" order="7" />
       <window_info id="Image Layers" order="7" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49761337" visible="true" weight="0.3416149" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="UI Designer" order="5" />
-      <window_info anchor="right" id="Properties" order="7" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="13" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Capture Analysis" order="8" />
@@ -816,7 +687,6 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50069255" side_tool="true" weight="0.31304348" />
       <window_info anchor="bottom" id="Messages" order="8" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Data View" order="9" />
       <window_info anchor="bottom" id="SVN Repositories" order="9" sideWeight="0.49930555" visible="true" weight="0.3298292" />
@@ -879,10 +749,38 @@
     <MESSAGE value="1、更新说明文档" />
     <MESSAGE value="增加requirements.txt文件，pip install -r requirements.txt  #注意，如果出现错误不要跳过，请根据错误信息尝试解决" />
     <MESSAGE value="删除无关的测试用例" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除无关的测试用例" />
+    <MESSAGE value="1、增加用例；&#10;2、优化报表。" />
+    <option name="LAST_COMMIT_MESSAGE" value="1、增加用例；&#10;2、优化报表。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PageObject/Pages.py</url>
+          <line>71</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PageObject/Pages.py</url>
+          <line>103</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Base/BaseOperate.py</url>
+          <line>86</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PageObject/Pages.py</url>
+          <line>154</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PageObject/Pages.py</url>
+          <line>127</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -890,7 +788,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="89" />
+      <option name="time" value="100" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -900,6 +798,8 @@
         <watch expression="self.is_get" />
         <watch expression="item.get(&quot;check&quot;, be.DEFAULT_CHECK) == be.COMPARE" />
         <watch expression="resp[&quot;text&quot;] !=self.get_value[i].get('msg')" />
+        <watch expression="item[&quot;msg&quot;]" />
+        <watch expression="resp[&quot;text&quot;]" />
       </configuration>
     </watches-manager>
   </component>
@@ -908,32 +808,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/xlsxwriter/workbook.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="153" selection-start-line="153" selection-end-line="153" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Base/HTMLTestRunner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1111">
-          <caret line="116" column="8" selection-start-line="116" selection-start-column="8" selection-end-line="116" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Img/console.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PageObject/Home/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PageObject/SumResult.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Runner/runner_ios.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/unittest/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -948,23 +822,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Base/BaseError.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mark.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="1890">
-            <caret line="70" column="19" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1065,56 +922,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/506359945/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="3650" column="34" selection-start-line="3650" selection-start-column="34" selection-end-line="3650" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PageObject/Home/CollectSwipeDellPage.py" />
     <entry file="file://$PROJECT_DIR$/PageObject/Home/CardsSortPage.py" />
     <entry file="file://$PROJECT_DIR$/PageObject/Home/HistorySwipeDellPage.py" />
-    <entry file="file://$PROJECT_DIR$/PageObject/Pages.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2295">
-          <caret line="91" column="7" lean-forward="true" selection-start-line="91" selection-start-column="7" selection-end-line="91" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yamls/myPage/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/Base/BaseOperate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-878">
-          <caret line="282" column="24" lean-forward="true" selection-start-line="282" selection-start-column="24" selection-end-line="282" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/unittest/runner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="185" selection-start-line="185" selection-end-line="185" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/unittest/suite.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
           <caret line="158" column="8" selection-start-line="158" selection-start-column="8" selection-end-line="158" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="350" column="6" selection-start-line="350" selection-start-column="6" selection-end-line="350" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PageObject/Home/LoginPage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -1124,44 +939,10 @@
     <entry file="file://$PROJECT_DIR$/Img/detail.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="216">
-            <caret line="8" column="16" selection-end-line="14" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Base/BaseRunner.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
           <caret line="41" column="59" selection-start-line="41" selection-start-column="59" selection-end-line="41" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Base/BaseAppiumServer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Base/BaseStatistics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="167" selection-start-line="167" selection-end-line="167" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/LoginPageTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-702">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#1#49#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1193,27 +974,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PageObject/My/MyPage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yamls/home/registerTest.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
           <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/MyPageTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
-          <folding>
-            <element signature="e#1#49#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1224,10 +988,158 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mark.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="1302">
+            <caret line="70" column="19" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-1485">
+            <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Runner/start.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Base/BaseAdb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-243">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Base/BaseStatistics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3368">
+          <caret line="147" column="5" selection-start-line="147" selection-start-column="5" selection-end-line="147" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Base/BaseAppiumServer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/unittest/signals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/506359945/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="180" column="4" selection-start-line="180" selection-start-column="4" selection-end-line="180" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yamls/myPage/unusedVoucherDetailTest.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1315">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Base/HTMLTestRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4509">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/unittest/runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-613">
+          <caret line="175" column="27" selection-start-line="175" selection-start-column="21" selection-end-line="175" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PageObject/Home/LoginPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/LoginPageTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding>
+            <element signature="e#1#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/os.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PageObject/My/MyPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="615" selection-start-line="615" selection-end-line="615" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/MyPageTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="e#1#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Base/BaseError.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-20">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Runner/runner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="80" column="21" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+        <state relative-caret-position="102">
+          <caret line="95" column="20" selection-start-line="95" selection-start-column="20" selection-end-line="95" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PageObject/Pages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="127" column="51" lean-forward="true" selection-start-line="127" selection-start-column="51" selection-end-line="127" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Base/BaseOperate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-668">
+          <caret line="95" column="12" selection-start-line="95" selection-start-column="12" selection-end-line="95" selection-end-column="12" />
         </state>
       </provider>
     </entry>
