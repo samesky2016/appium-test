@@ -1,7 +1,7 @@
 testinfo:
-    - id: test006
-      title: 未使用的卡券详情
-      info: 未使用的卡券详情
+    - id: test008
+      title: 消费记录
+      info: 消费记录
 testcase:
     - element_info: com.jieshun.jslife:id/ic_guide_past
       find_type: id
@@ -26,37 +26,45 @@ testcase:
       is_time: 1
       operate_type: click
       info: 点击我的
-    - element_info: com.jieshun.jslife:id/my_card_volume_count
+    - element_info: com.jieshun.jslife:id/rl_consume_record
       find_type: id
       operate_type: click
-      info: 查看卡券详情
-    - element_info: com.jieshun.jslife:id/activity_car_life_parking_coupon_listitem_title_tv
-      find_type: id
-      operate_type: click
-      info: 未使用的卡券详情
+      info: 查看消费记录
 
 check:
-    - element_info: com.jieshun.jslife:id/MyCouponDetailActivity_title_tv
-      find_type: id
-      msg: 1.00元停车券
-      check: compare
-      operate_type: get_value
-      info: 卡券名称
-    - element_info: com.jieshun.jslife:id/MyCouponDetailActivity_meno_tv
-      find_type: id
-      msg: 1.00元现金抵扣
-      check: compare
-      operate_type: get_value
-      info: 优惠方式
-    - element_info: com.jieshun.jslife:id/MyCouponDetailActivity_date_tv
-      find_type: id
-      msg: 2018年04月20日 至 2019年04月20日
-      check: compare
-      operate_type: get_value
-      info: 有效日期
-    - element_info: com.jieshun.jslife:id/MyCouponDetailActivity_use_place_tv
+    - element_info: com.jieshun.jslife:id/tv_parking_name
       find_type: id
       msg: 三楼测试--20171207
       check: compare
       operate_type: get_value
-      info: 使用场所
+      info: 停车场名称
+    - element_info: com.jieshun.jslife:id/tv_amount
+      find_type: id
+      msg: 0.01
+      check: compare
+      operate_type: get_value
+      info: 消费金额
+    - element_info: com.jieshun.jslife:id/tv_car_no
+      find_type: id
+      msg: 鄂-A12879
+      check: compare
+      operate_type: get_value
+      info: 车牌号码
+    - element_info: com.jieshun.jslife:id/tv_pay_time
+      find_type: id
+      msg: 2018-03-30 05:06:23
+      check: compare
+      operate_type: get_value
+      info: 消费时间
+    - element_info: com.jieshun.jslife:id/tv_order_state
+      find_type: id
+      msg: 交易成功
+      check: compare
+      operate_type: get_value
+      info: 订单状态
+    - element_info: com.jieshun.jslife:id/tv_order_type
+      find_type: id
+      msg: 代扣缴费
+      check: compare
+      operate_type: get_value
+      info: 订单类型

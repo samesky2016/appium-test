@@ -43,13 +43,11 @@ check:
     - element_info: com.jieshun.jslife:id/MyCouponDetailActivity_title_tv
       find_type: id
       msg: 5.00元停车券
-      is_time: 1
       check: compare
       operate_type: get_value
       info: 卡券名称
     - element_info: com.jieshun.jslife:id/MyCouponDetailActivity_meno_tv
       find_type: id
-      is_time: 1
       msg: 5.00元现金抵扣
       check: compare
       operate_type: get_value

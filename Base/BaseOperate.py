@@ -85,7 +85,7 @@ class OperateElement:
     def operate_by(self, operate, testInfo, logTest, device):
         try:
             info = operate.get("element_info", " ") + "_" + operate.get("operate_type", " ") + str(operate.get(
-                "code", " ")) + operate.get("msg", " ")
+                "code", " ")) + str(operate.get("msg", " "))
             logTest.buildStartLine(testInfo[0]["id"] + "_" + testInfo[0]["title"] + "_" + info)  # 记录日志
             print("==操作步骤：%s==" % info)
 
