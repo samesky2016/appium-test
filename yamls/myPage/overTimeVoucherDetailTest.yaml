@@ -1,7 +1,7 @@
 testinfo:
-    - id: test006
-      title: 未使用的卡券详情
-      info: 未使用的卡券详情
+    - id: test007
+      title: 已过期的卡券详情
+      info: 已过期的卡券详情
 testcase:
     - element_info: com.jieshun.jslife:id/ic_guide_past
       find_type: id
@@ -30,35 +30,39 @@ testcase:
       find_type: id
       operate_type: click
       info: 查看卡券详情
+    - element_info: com.jieshun.jslife:id/aclpcl_tv_over_time
+      find_type: id
+      operate_type: click
+      info: 已过期的卡券列表
     - element_info: com.jieshun.jslife:id/activity_car_life_parking_coupon_listitem_title_tv
       find_type: id
       operate_type: click
-      info: 未使用的卡券详情
+      info: 已过期的卡券详情页面
 
 check:
     - element_info: com.jieshun.jslife:id/MyCouponDetailActivity_title_tv
       find_type: id
-      msg: 1.00元停车券
-      is_time: 3
+      msg: 5.00元停车券
+      is_time: 1
       check: compare
       operate_type: get_value
       info: 卡券名称
     - element_info: com.jieshun.jslife:id/MyCouponDetailActivity_meno_tv
       find_type: id
       is_time: 1
-      msg: 1.00元现金抵扣
+      msg: 5.00元现金抵扣
       check: compare
       operate_type: get_value
       info: 优惠方式
     - element_info: com.jieshun.jslife:id/MyCouponDetailActivity_date_tv
       find_type: id
-      msg: 2018年04月20日 至 2019年04月20日
+      msg: 2018年05月25日 至 2018年06月01日
       check: compare
       operate_type: get_value
       info: 有效日期
     - element_info: com.jieshun.jslife:id/MyCouponDetailActivity_use_place_tv
       find_type: id
-      msg: 三楼测试--20171207
+      msg: 使用捷顺科技设备的大部分停车场，具体以缴停车费时可实际使用的为准。
       check: compare
       operate_type: get_value
       info: 使用场所

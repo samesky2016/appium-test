@@ -107,7 +107,7 @@ class OperateReport:
                                                                     'font_color': '#ffffff'}))
         _write_center(worksheet, "A2", '机型', self.wd)
         _write_center(worksheet, "B2", '用例ID', self.wd)
-        _write_center(worksheet, "C2", '用例介绍', self.wd)
+        _write_center(worksheet, "C2", '用例名称', self.wd)
         _write_center(worksheet, "D2", '用例函数', self.wd)
         _write_center(worksheet, "E2", '前置条件', self.wd)
         _write_center(worksheet, "F2", '操作步骤 ', self.wd)
@@ -158,7 +158,7 @@ def get_format_center(wd, num=1):
 def get_format_center1(wd, num=1):
     return wd.add_format({ 'border': num,'bold': True,  'align': 'center',
                                                                     'valign': 'vcenter',
-                                                                    'font_color': '#7CFC00'})
+                                                                    'font_color': '#98FB98'})
 
 
 def set_border_(wd, num=1):
