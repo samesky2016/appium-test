@@ -169,9 +169,11 @@ class OperateElement:
 
     def get_content_desc(self, mOperate):
         result = self.elements_by(mOperate).get_attribute("contentDescription")
-        re_reulst = re.findall(r'[a-zA-Z\d+\u4e00-\u9fa5]', result)
-        return {"result": True, "text": "".join(re_reulst)}
+        # 胡国彪修改返回值的方式，不做任何处理，以免检查点检验时不通过
+        # re_reulst = re.findall(r'[a-zA-Z\d+\u4e00-\u9fa5]', result)
+        # return {"result": True, "text": "".join(re_reulst)}
 
+        return {"result": True, "text": "".join(result)}
     '''
     切换native
     
@@ -268,18 +270,21 @@ class OperateElement:
                 result = element_info.text
             else:
                 result = element_info.get_attribute("text")
-            re_reulst = re.findall(r'[a-zA-Z\d+\u4e00-\u9fa5]', result)  # 只匹配中文，大小写，字母
-            return {"result": True, "text": "".join(re_reulst)}
 
+            #胡国彪修改返回值的方式，不做任何处理，以免检查点检验时不通过
+            #re_reulst = re.findall(r'[a-zA-Z\d+\u4e00-\u9fa5]', result)  # 只匹配中文，大小写，字母
+            #return {"result": True, "text": "".join(re_reulst)}
+            return {"result": True, "text": "".join(result)}
         element_info = self.elements_by(mOperate)
         if mOperate.get("is_webview", "0") == 1:
             result = element_info.text
         else:
             result = element_info.get_attribute("text")
 
-        re_reulst = re.findall(r'[a-zA-Z\d+\u4e00-\u9fa5]', result)
-        return {"result": True, "text": "".join(re_reulst)}
-
+        # 胡国彪修改返回值的方式，不做任何处理，以免检查点检验时不通过
+        # re_reulst = re.findall(r'[a-zA-Z\d+\u4e00-\u9fa5]', result)
+        # return {"result": True, "text": "".join(re_reulst)}
+        return {"result": True, "text": "".join(result)}
     def click_windows(self, device):
         try:
             button0 = 'com.huawei.systemmanager:id/btn_allow'

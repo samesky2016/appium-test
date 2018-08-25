@@ -155,11 +155,16 @@ def get_format(wd, option={}):
 def get_format_center(wd, num=1):
     return wd.add_format({'align': 'center', 'valign': 'vcenter', 'border': num})
 
+#成功标为绿色，以后合并成一个函数
 def get_format_center1(wd, num=1):
     return wd.add_format({ 'border': num,'bold': True,  'align': 'center',
-                                                                    'valign': 'vcenter',
-                                                                    'font_color': '#98FB98'})
+                                                                    'valign': 'vcenter','font_color': '#98FB98'})
 
+#失败标为红色，以后合并成一个函数
+def get_format_center2(wd, num=1):
+    return wd.add_format({ 'border': num,'bold': True,  'align': 'center',
+                                                                    'valign': 'vcenter',
+                                                                    'font_color': '#FF4500'})
 
 def set_border_(wd, num=1):
     return wd.add_format({}).set_border(num)
@@ -169,8 +174,10 @@ def _write_center(worksheet, cl, data, wd):
     return worksheet.write(cl, data, get_format_center(wd))
 
 def _write_center_hance(worksheet, cl, data,wd):
-    return worksheet.write(cl, data, get_format_center1(wd))
-
+    if data=="通过":
+        return worksheet.write(cl, data, get_format_center1(wd))
+    else:
+        return worksheet.write(cl, data, get_format_center2(wd))
 def set_row(worksheet, num, height):
     worksheet.set_row(num, height)
 
