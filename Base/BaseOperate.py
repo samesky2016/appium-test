@@ -25,6 +25,8 @@ class OperateElement:
         self.driver = driver
 
     def findElement(self, mOperate):
+        if mOperate["element_info"]=="com.jieshun.jslife:id/ic_guide_past":
+            print(mOperate["element_info"])
         '''
         查找元素.mOperate,dict|list
         operate_type：对应的操作

@@ -61,7 +61,7 @@ def runnerPool(getDevices):
 def runnerCaseApp(devices):
     starttime = datetime.now()
     suite = unittest.TestSuite()
-    suite.addTest(ParametrizedTestCase.parametrize(LoginPageTest, param=devices))
+    #suite.addTest(ParametrizedTestCase.parametrize(LoginPageTest, param=devices))
     suite.addTest(ParametrizedTestCase.parametrize(MyPageTest, param=devices)) #加入测试类
 
     unittest.TextTestRunner(verbosity=2).run(suite)
@@ -80,7 +80,7 @@ if __name__ == '__main__':
             app = {}
             app["devices"] = dev
             # 注释掉重现安装
-            init(dev)
+            #init(dev)
             #生成appium端口，appium-desktop端口默认为：4723
             #app["port"] = str(4723)
             app["port"] = str(random.randint(4700, 4900))

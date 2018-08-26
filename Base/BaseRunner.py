@@ -71,20 +71,23 @@ class ParametrizedTestCase(unittest.TestCase):
     def setUpClass(cls):
         pass
         # 注释掉通过unittest方式初始化基础数据，造成外部调用拿不到driver等数据
-        cls.driver, cls.launch_app = appium_testcase(devicess)
+        # cls.driver, cls.launch_app = appium_testcase(devicess)
         cls.devicesName = devicess["deviceName"]
         cls.logTest = myLog().getLog(cls.devicesName)  # 每个设备实例化一个日志记录器
 
     def setUp(self):
-        pass
+        # 注释掉通过unittest方式初始化基础数据，造成外部调用拿不到driver等数据
+        self.driver, self.launch_app = appium_testcase(devicess)
 
     @classmethod
     def tearDownClass(cls):
-        cls.driver.close_app()
-        cls.driver.quit()
         pass
+        #cls.driver.close_app()
+        #cls.driver.quit()
+
     def tearDown(self):
-        pass
+        self.driver.close_app()
+        self.driver.quit()
 
     @staticmethod
     def parametrize(testcase_klass, param=None):

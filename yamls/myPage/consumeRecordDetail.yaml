@@ -1,0 +1,91 @@
+testinfo:
+    - id: test009
+      title: 消费记录详情检查
+      info: 消费记录详情检查
+testcase:
+    - element_info: com.jieshun.jslife:id/ic_guide_past
+      find_type: id
+      operate_type: click
+      info: 跳过欢迎界面
+    - element_info: com.jieshun.jslife:id/editxt_user_name
+      find_type: id
+      operate_type: set_value
+      msg: "13632836691"
+      info: 输入用户名
+    - element_info: com.jieshun.jslife:id/edttxt_login_pwd
+      find_type: id
+      operate_type: set_value
+      msg: "123456"
+      info: 输入密码
+    - element_info: com.jieshun.jslife:id/btn_login
+      find_type: id
+      operate_type: click
+      info: 点击登录按钮
+    - element_info: com.jieshun.jslife:id/tv_user_page
+      find_type: id
+      operate_type: click
+      info: 点击我的
+    - element_info: com.jieshun.jslife:id/rl_consume_record
+      find_type: id
+      operate_type: click
+      info: 查看消费记录列表
+    - element_info: com.jieshun.jslife:id/tv_parking_name
+      find_type: id
+      operate_type: click
+      info: 查看消费记录详情
+
+check:
+    - element_info: com.jieshun.jslife:id/tv_partner_name
+      find_type: id
+      msg: 捷顺停车（渠道备用金）
+      check: compare
+      operate_type: get_value
+      info: 渠道名称
+    - element_info: com.jieshun.jslife:id/tv_parking_name
+      find_type: id
+      msg: 三楼测试--20171207
+      check: compare
+      operate_type: get_value
+      info: 停车场名称
+    - element_info: com.jieshun.jslife:id/tv_pay_amount
+      find_type: id
+      msg: ¥0.01
+      check: compare
+      operate_type: get_value
+      info: 消费金额
+    - element_info: com.jieshun.jslife:id/tv_plate_no
+      find_type: id
+      msg: 鄂-A12879
+      check: compare
+      operate_type: get_value
+      info: 车牌号码
+    - element_info: com.jieshun.jslife:id/tv_pay_time
+      find_type: id
+      msg: 2018-03-30 05:06:23
+      check: compare
+      operate_type: get_value
+      info: 消费时间
+    - element_info: com.jieshun.jslife:id/tv_trade_state
+      find_type: id
+      msg: 交易成功
+      check: compare
+      operate_type: get_value
+      info: 订单状态
+    - element_info: com.jieshun.jslife:id/tv_pay_type
+      find_type: id
+      msg: 支付宝
+      check: compare
+      operate_type: get_value
+      info: 支付方式
+    - element_info: com.jieshun.jslife:id/tv_order_no
+      find_type: id
+      msg: DK180330050625189998381596740
+      check: compare
+      operate_type: get_value
+      info: 订单编号
+    - element_info: com.jieshun.jslife:id/txt_telephone_no
+      find_type: id
+      msg: 400-700-5305
+      check: compare
+      operate_type: get_value
+      info: 客服电话
