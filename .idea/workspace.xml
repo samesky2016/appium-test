@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ddb0de69-ad6e-4042-9b9f-25fcf6c5fbf9" name="Default" comment="修复检查点的bug">
-      <change afterPath="$PROJECT_DIR$/app/jsLife_build_V3.2.3_20180821_01_5ad1b1b1_enc_signed_Aligned_302030.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/appium.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/appium.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="ddb0de69-ad6e-4042-9b9f-25fcf6c5fbf9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/sum.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/Log/sum.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/Report.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Report/Report.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Runner/runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/Runner/runner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/MyPageTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/MyPageTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.jieshun.jslife.apk" beforeDir="false" />
     </list>
     <ignored path="D:\appium\.idea\shelf/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,8 +72,8 @@
       <file leaf-file-name="runner.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Runner/runner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="58" selection-start-line="58" selection-end-line="58" />
+            <state relative-caret-position="153">
+              <caret line="88" column="38" lean-forward="true" selection-start-line="88" selection-start-column="38" selection-end-line="88" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -319,18 +313,18 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\appium\app" />
+      <recent name="E:\appium\appium-master\appium-test\yamls\myPage" />
+      <recent name="D:\appium\yamls\myPage" />
+      <recent name="D:\appium\PageObject\My" />
+      <recent name="D:\appium\TestCase" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\demo\appium\PageObject\Home" />
       <recent name="D:\app\appium\yaml" />
       <recent name="D:\app\appium\test" />
       <recent name="D:\app\appium\resources" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\appium\appium-master\appium-test\yamls\myPage" />
-      <recent name="D:\appium\yamls\myPage" />
-      <recent name="D:\appium\PageObject\My" />
-      <recent name="D:\appium\TestCase" />
-      <recent name="D:\appium\yamls\home" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -589,7 +583,14 @@
       <option name="project" value="LOCAL" />
       <updated>1535212440841</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="更新软件包">
+      <created>1535340677893</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1535340677893</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -635,6 +636,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="13" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -643,10 +645,10 @@
       <window_info anchor="bottom" id="Python Console" order="3" />
       <window_info anchor="bottom" id="Run" order="9" weight="0.3298292" />
       <window_info anchor="bottom" id="Terminal" order="5" weight="0.32969433" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.32291666" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.32291666" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="1" />
-      <window_info anchor="bottom" id="Find" order="8" visible="true" weight="0.3298292" />
+      <window_info active="true" anchor="bottom" id="Find" order="8" visible="true" weight="0.3298292" />
       <window_info anchor="right" id="SciView" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -733,7 +735,8 @@
     <MESSAGE value="1、增加用例；&#10;2、优化报表。" />
     <MESSAGE value="1、新增用例。" />
     <MESSAGE value="修复检查点的bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="修复检查点的bug" />
+    <MESSAGE value="更新软件包" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新软件包" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1059,8 +1062,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Runner/runner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        <state relative-caret-position="153">
+          <caret line="88" column="38" lean-forward="true" selection-start-line="88" selection-start-column="38" selection-end-line="88" selection-end-column="57" />
         </state>
       </provider>
     </entry>
