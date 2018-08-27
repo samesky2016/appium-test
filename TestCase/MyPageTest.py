@@ -19,52 +19,63 @@ class MyPageTest(ParametrizedTestCase):
         page.checkPoint()
 
     # 我的页面检查余额
-    def test_003_myBalance(self):
+    def _003_myBalance(self):
         app = {"logTest": self.logTest, "launch_app":self.launch_app,"driver": self.driver, "path": PATH("../yamls/myPage/myBalanceTest.yaml"),
                "device": self.devicesName, "caseName": sys._getframe().f_code.co_name}
         self.execute(app)
     # 我的页面检查卡券
-    def test_004_myVoucher(self):
+    def _004_myVoucher(self):
         app = {"logTest": self.logTest, "launch_app":self.launch_app,"driver": self.driver, "path": PATH("../yamls/myPage/myVoucherTest.yaml"),
                "device": self.devicesName, "caseName": sys._getframe().f_code.co_name}
 
         self.execute(app)
 
     # 卡券详情页面检查
-    def test_005_myVoucher_detail(self):
+    def _005_myVoucher_detail(self):
         app = {"logTest": self.logTest, "launch_app":self.launch_app,"driver": self.driver, "path": PATH("../yamls/myPage/myVoucherDetailTest.yaml"),
                "device": self.devicesName, "caseName": sys._getframe().f_code.co_name}
 
         self.execute(app)
 
     # 未使用卡券详情页面检查
-    def test_006_UnusedVoucher_detail(self):
+    def _006_unusedVoucher_detail(self):
         app = {"logTest": self.logTest, "launch_app":self.launch_app,"driver": self.driver, "path": PATH("../yamls/myPage/unusedVoucherDetailTest.yaml"),
                "device": self.devicesName, "caseName": sys._getframe().f_code.co_name}
 
         self.execute(app)
     # 已过期卡券详情页面检查
-    def test_007_OverTimeVoucher_detail(self):
+    def _007_overTimeVoucher_detail(self):
         app = {"logTest": self.logTest, "launch_app":self.launch_app,"driver": self.driver, "path": PATH("../yamls/myPage/overTimeVoucherDetailTest.yaml"),
                "device": self.devicesName, "caseName": sys._getframe().f_code.co_name}
         self.execute(app)
 
     # 消费记录列表检查
-    def test_008_ConsumeRecord(self):
+    def _008_consumeRecord(self):
         app = {"logTest": self.logTest, "launch_app":self.launch_app,"driver": self.driver, "path": PATH("../yamls/myPage/consumeRecord.yaml"),
                "device": self.devicesName, "caseName": sys._getframe().f_code.co_name}
         self.execute(app)
 
 
     # 消费记录详情检查
-    def test_009_ConsumeRecord(self):
+    def _009_consumeRecordDetail(self):
         app = {"logTest": self.logTest, "launch_app":self.launch_app,"driver": self.driver, "path": PATH("../yamls/myPage/consumeRecordDetail.yaml"),
                "device": self.devicesName, "caseName": sys._getframe().f_code.co_name}
         self.execute(app)
 
     # 我车辆列表
-    def test_010_ConsumeRecord(self):
+    def _010_myCarList(self):
         app = {"logTest": self.logTest, "launch_app":self.launch_app,"driver": self.driver, "path": PATH("../yamls/myPage/myCarTest.yaml"),
+               "device": self.devicesName, "caseName": sys._getframe().f_code.co_name}
+        self.execute(app)
+    # 我车辆列表--新增车辆
+    def test_011_myCarAdd(self):
+        app = {"logTest": self.logTest, "launch_app":self.launch_app,"driver": self.driver, "path": PATH("../yamls/myPage/myCarAddTest.yaml"),
+               "device": self.devicesName, "caseName": sys._getframe().f_code.co_name}
+        self.execute(app)
+
+    # 我车辆列表--删除车辆
+    def test_012_myCarDel(self):
+        app = {"logTest": self.logTest, "launch_app":self.launch_app,"driver": self.driver, "path": PATH("../yamls/myPage/myCarDelTest.yaml"),
                "device": self.devicesName, "caseName": sys._getframe().f_code.co_name}
         self.execute(app)
 
