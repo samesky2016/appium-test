@@ -80,7 +80,7 @@ if __name__ == '__main__':
             app = {}
             app["devices"] = dev
             # 注释掉重现安装
-            #init(dev)
+            init(dev)
             #生成appium端口，appium-desktop端口默认为：4723
             #app["port"] = str(4723)
             app["port"] = str(random.randint(4700, 4900))
@@ -96,6 +96,6 @@ if __name__ == '__main__':
         writeExcel()
         appium_server.stop_server(l_devices)
         #发送邮件
-        #sendEmail()
+        sendEmail()
     else:
         print("没有可用的安卓设备")
