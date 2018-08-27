@@ -19,26 +19,26 @@ class MyPageTest(ParametrizedTestCase):
         page.checkPoint()
 
     # 我的页面检查余额
-    def _003_myBalance(self):
+    def test_003_myBalance(self):
         app = {"logTest": self.logTest, "launch_app":self.launch_app,"driver": self.driver, "path": PATH("../yamls/myPage/myBalanceTest.yaml"),
                "device": self.devicesName, "caseName": sys._getframe().f_code.co_name}
         self.execute(app)
     # 我的页面检查卡券
-    def _004_myVoucher(self):
+    def test_004_myVoucher(self):
         app = {"logTest": self.logTest, "launch_app":self.launch_app,"driver": self.driver, "path": PATH("../yamls/myPage/myVoucherTest.yaml"),
                "device": self.devicesName, "caseName": sys._getframe().f_code.co_name}
 
         self.execute(app)
 
     # 卡券详情页面检查
-    def _005_myVoucher_detail(self):
+    def test_005_myVoucher_detail(self):
         app = {"logTest": self.logTest, "launch_app":self.launch_app,"driver": self.driver, "path": PATH("../yamls/myPage/myVoucherDetailTest.yaml"),
                "device": self.devicesName, "caseName": sys._getframe().f_code.co_name}
 
         self.execute(app)
 
     # 未使用卡券详情页面检查
-    def _006_UnusedVoucher_detail(self):
+    def test_006_UnusedVoucher_detail(self):
         app = {"logTest": self.logTest, "launch_app":self.launch_app,"driver": self.driver, "path": PATH("../yamls/myPage/unusedVoucherDetailTest.yaml"),
                "device": self.devicesName, "caseName": sys._getframe().f_code.co_name}
 
