@@ -62,6 +62,11 @@ class MyPageTest(ParametrizedTestCase):
                "device": self.devicesName, "caseName": sys._getframe().f_code.co_name}
         self.execute(app)
 
+    # 我车辆列表
+    def test_010_ConsumeRecord(self):
+        app = {"logTest": self.logTest, "launch_app":self.launch_app,"driver": self.driver, "path": PATH("../yamls/myPage/myCarTest.yaml"),
+               "device": self.devicesName, "caseName": sys._getframe().f_code.co_name}
+        self.execute(app)
 
     @classmethod
     def setUpClass(cls):

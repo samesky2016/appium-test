@@ -1,7 +1,7 @@
 testinfo:
-    - id: test004
-      title: 卡券数量检查
-      info: 卡券检查
+    - id: test010
+      title: 我的车辆
+      info: 我的车辆
 testcase:
     - element_info: com.jieshun.jslife:id/ic_guide_past
       find_type: id
@@ -25,10 +25,14 @@ testcase:
       find_type: id
       operate_type: click
       info: 点击我的
-check:
-    - element_info: com.jieshun.jslife:id/my_card_volume_count
+    - element_info: com.jieshun.jslife:id/rl_my_cars
       find_type: id
-      msg: 2张
+      operate_type: click
+      info: 点击我的车辆
+check:
+    - element_info: com.jieshun.jslife:id/item_my_car_info_new_carNo_tv
+      find_type: id
+      msg: 鄂-学ZZZZZ
       check: compare
       operate_type: get_value
-      info: 卡券
+      info: 车牌号码
