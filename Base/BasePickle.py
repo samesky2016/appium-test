@@ -21,7 +21,7 @@ def readInfo(path):
     with open(path, 'rb') as f:
         try:
             data = pickle.load(f)
-            print(data)
+            #print(data)
         except EOFError:
             data = []
             # print("读取文件错误")
