@@ -62,20 +62,34 @@ class MyPageTest(ParametrizedTestCase):
                "device": self.devicesName, "caseName": sys._getframe().f_code.co_name}
         self.execute(app)
 
-    # 我车辆列表
-    def _010_myCarList(self):
-        app = {"logTest": self.logTest, "launch_app":self.launch_app,"driver": self.driver, "path": PATH("../yamls/myPage/myCarTest.yaml"),
-               "device": self.devicesName, "caseName": sys._getframe().f_code.co_name}
-        self.execute(app)
+
     # 我车辆列表--新增车辆
-    def test_011_myCarAdd(self):
+    def test_010_myCarAdd(self):
         app = {"logTest": self.logTest, "launch_app":self.launch_app,"driver": self.driver, "path": PATH("../yamls/myPage/myCarAddTest.yaml"),
                "device": self.devicesName, "caseName": sys._getframe().f_code.co_name}
         self.execute(app)
 
-    # 我车辆列表--删除车辆
-    def test_012_myCarDel(self):
-        app = {"logTest": self.logTest, "launch_app":self.launch_app,"driver": self.driver, "path": PATH("../yamls/myPage/myCarDelTest.yaml"),
+    # 我车辆列表
+    def test_011_myCarList(self):
+        app = {"logTest": self.logTest, "launch_app":self.launch_app,"driver": self.driver, "path": PATH("../yamls/myPage/myCarTest.yaml"),
+               "device": self.devicesName, "caseName": sys._getframe().f_code.co_name}
+        self.execute(app)
+
+    # 我车辆列表--删除车辆-选择放弃操作
+    def test_012_myCarDelCancel(self):
+        app = {"logTest": self.logTest, "launch_app":self.launch_app,"driver": self.driver, "path": PATH("../yamls/myPage/myCarDelCancelTest.yaml"),
+               "device": self.devicesName, "caseName": sys._getframe().f_code.co_name}
+        self.execute(app)
+
+    # 我车辆列表--删除车辆-删除成功
+    def test_013_myCarDelSuccess(self):
+        app = {"logTest": self.logTest, "launch_app":self.launch_app,"driver": self.driver, "path": PATH("../yamls/myPage/myCarDelSuccessTest.yaml"),
+               "device": self.devicesName, "caseName": sys._getframe().f_code.co_name}
+        self.execute(app)
+
+    # 开门申请记录查询
+    def test_014_myCarDel(self):
+        app = {"logTest": self.logTest, "launch_app":self.launch_app,"driver": self.driver, "path": PATH("../yamls/myPage/openDoorApplyTest.yaml"),
                "device": self.devicesName, "caseName": sys._getframe().f_code.co_name}
         self.execute(app)
 

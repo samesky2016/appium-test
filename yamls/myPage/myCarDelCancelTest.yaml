@@ -1,7 +1,7 @@
 testinfo:
-    - id: test011
-      title: 我的车辆列表
-      info: 我的车辆列表
+    - id: test012
+      title: 删除车辆-放弃删除
+      info: 删除车辆-放弃删除
 testcase:
     - element_info: com.jieshun.jslife:id/ic_guide_past
       find_type: id
@@ -29,6 +29,16 @@ testcase:
       find_type: id
       operate_type: click
       info: 点击我的车辆
+    - element_info: com.jieshun.jslife:id/item_my_car_info_new_del_btn
+      find_type: id
+      operate_type: click
+      info: 点击删除车辆
+
+    - element_info: com.jieshun.jslife:id/btn_positive
+      find_type: id
+      operate_type: click
+      info: 放弃删除
+
 check:
     - element_info: com.jieshun.jslife:id/item_my_car_info_new_carNo_tv
       find_type: id
@@ -36,3 +46,4 @@ check:
       check: compare
       operate_type: get_value
       info: 车牌号码
+

@@ -4,7 +4,7 @@ from PageObject import Pages
 
 class MyPage:
     '''
-    登录页面
+    我的页面
     isOperate: 操作失败，检查点就失败,kwargs: WebDriver driver, String path(yaml配置参数)
     '''
 

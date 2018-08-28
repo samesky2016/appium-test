@@ -1,5 +1,5 @@
 testinfo:
-    - id: test011
+    - id: test010
       title: 新增车辆
       info: 新增车辆
 testcase:
@@ -29,7 +29,7 @@ testcase:
       find_type: id
       operate_type: click
       info: 点击我的车辆
-    - element_info: com.jieshun.jslife:id/iv_more
+    - element_info: com.jieshun.jslife:id/rl_add_cars
       find_type: id
       operate_type: click
       info: 点击新增车辆按钮

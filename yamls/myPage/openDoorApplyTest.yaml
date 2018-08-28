@@ -1,7 +1,7 @@
 testinfo:
-    - id: test011
-      title: 我的车辆列表
-      info: 我的车辆列表
+    - id: test014
+      title: 开门申请记录
+      info: 开门申请记录
 testcase:
     - element_info: com.jieshun.jslife:id/ic_guide_past
       find_type: id
@@ -25,14 +25,15 @@ testcase:
       find_type: id
       operate_type: click
       info: 点击我的
-    - element_info: com.jieshun.jslife:id/rl_my_cars
+    - element_info: com.jieshun.jslife:id/rl_open_door_apply
       find_type: id
       operate_type: click
-      info: 点击我的车辆
+      info: 点击开门申请
+
+
 check:
-    - element_info: com.jieshun.jslife:id/item_my_car_info_new_carNo_tv
-      find_type: id
-      msg: 藏-ZX1234
-      check: compare
+    - element_info: //android.view.View[@content-desc="未查到任何权限申请记录"]
+      find_type: xpath
+      check: default_check
       operate_type: get_value
-      info: 车牌号码
+      info: 开门权限申请记录
