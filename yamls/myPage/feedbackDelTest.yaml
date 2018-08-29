@@ -1,7 +1,7 @@
 testinfo:
-    - id: test015
-      title: 意见反馈-新增
-      info: 意见反馈-新增
+    - id: test017
+      title: 意见反馈-删除
+      info: 意见反馈-删除
 testcase:
     - element_info: com.jieshun.jslife:id/ic_guide_past
       find_type: id
@@ -35,15 +35,15 @@ testcase:
       info: 查看反馈记录
     - element_info: //android.widget.TextView[@text='反馈意见测试，请勿处理！']
       find_type: xpath
-      operate_type: click
+      operate_type: long_press
+      timeout: 1000
       info: 点击某条记录
-
+    - element_info: //android.widget.TextView[@text='删除反馈']
+      find_type: xpath
+      operate_type: click
+      info: 点击删除
 check:
     - element_info: //*[contains(@text, '删除成功')]
       find_type: xpath
       check: "toast"
       info: 提示信息
-    - element_info: com.jieshun.jslife:id/rl_opinion_feedback
-      find_type: id
-      check: default_check
-      info: 检查是否退出菜单

@@ -4,6 +4,7 @@ import os
 import threading
 
 import appium.common.exceptions
+from appium.webdriver.common.touch_action import TouchAction
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions
 
@@ -101,7 +102,8 @@ class OperateElement:
                 be.SET_VALUE: lambda: self.set_value(operate),
                 be.ADB_TAP: lambda: self.adb_tap(operate, device),
                 be.GET_CONTENT_DESC: lambda: self.get_content_desc(operate),
-                be.PRESS_KEY_CODE: lambda: self.press_keycode(operate)
+                be.PRESS_KEY_CODE: lambda: self.press_keycode(operate),
+                be.LONG_PRESS: lambda: self.longPressAction(operate)
 
             }
             return elements[operate.get("operate_type")]()
@@ -248,6 +250,20 @@ class OperateElement:
         # self.driver.swipe(0, 1327, 500, 900, 1000)
         print("--swipeToUp--")
 
+    #长按操作
+    def longPressAction(self,mOperate):
+        action1 = TouchAction(self.driver)
+        el = self.elements_by(mOperate)
+        action1.long_press(el).wait(mOperate.get("timeout",1000)).perform().release()
+        return {"result": True}
+
+    #长按并滑动
+    def longPressAndSwipeAction(self,mOperate):
+        action1 = TouchAction(self.driver)
+        el = self.elements_by(mOperate)
+        action1.moveTo(el).release().perform()
+        return {"result": True}
+
     def set_value(self, mOperate):
         """
         输入值，代替过时的send_keys
@@ -305,14 +321,16 @@ class OperateElement:
                 os.system(cmd)
                 print("==点击授权弹框_%s==" % elem)
         except selenium.common.exceptions.TimeoutException:
-            # print("==查找元素超时==")
+            print("==查找元素超时==")
             pass
         except selenium.common.exceptions.NoSuchElementException:
-            # print("==查找元素不存在==")
-           pass
+            print("==查找元素不存在==")
+            pass
         except selenium.common.exceptions.WebDriverException:
-            # print("WebDriver出现问题了")
-           pass
+            print("WebDriver出现问题了")
+            pass
+
+
 
     # 封装常用的标签
     def elements_by(self, mOperate):

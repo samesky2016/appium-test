@@ -93,17 +93,17 @@ class MyPageTest(ParametrizedTestCase):
                "device": self.devicesName, "caseName": sys._getframe().f_code.co_name}
         self.execute(app)
     # 意见反馈-新增
-    def test_015_feedbackAdd(self):
+    def _015_feedbackAdd(self):
         app = {"logTest": self.logTest, "launch_app":self.launch_app,"driver": self.driver, "path": PATH("../yamls/myPage/feedbackAddTest.yaml"),
                "device": self.devicesName, "caseName": sys._getframe().f_code.co_name}
         self.execute(app)
     # 意见反馈-追问
-    def test_016_feedbackMore(self):
+    def _016_feedbackMore(self):
         app = {"logTest": self.logTest, "launch_app":self.launch_app,"driver": self.driver, "path": PATH("../yamls/myPage/feedbackMoreTest.yaml"),
                "device": self.devicesName, "caseName": sys._getframe().f_code.co_name}
         self.execute(app)
     # 意见反馈-删除
-    def _017_feedbackMore(self):
+    def test_017_feedbackDel(self):
         app = {"logTest": self.logTest, "launch_app":self.launch_app,"driver": self.driver, "path": PATH("../yamls/myPage/feedbackDelTest.yaml"),
                "device": self.devicesName, "caseName": sys._getframe().f_code.co_name}
         self.execute(app)
