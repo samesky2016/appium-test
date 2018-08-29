@@ -93,18 +93,23 @@ class MyPageTest(ParametrizedTestCase):
                "device": self.devicesName, "caseName": sys._getframe().f_code.co_name}
         self.execute(app)
     # 意见反馈-新增
-    def _015_feedbackAdd(self):
+    def test_015_feedbackAdd(self):
         app = {"logTest": self.logTest, "launch_app":self.launch_app,"driver": self.driver, "path": PATH("../yamls/myPage/feedbackAddTest.yaml"),
                "device": self.devicesName, "caseName": sys._getframe().f_code.co_name}
         self.execute(app)
     # 意见反馈-追问
-    def _016_feedbackMore(self):
+    def test_016_feedbackMore(self):
         app = {"logTest": self.logTest, "launch_app":self.launch_app,"driver": self.driver, "path": PATH("../yamls/myPage/feedbackMoreTest.yaml"),
                "device": self.devicesName, "caseName": sys._getframe().f_code.co_name}
         self.execute(app)
     # 意见反馈-删除
     def test_017_feedbackDel(self):
         app = {"logTest": self.logTest, "launch_app":self.launch_app,"driver": self.driver, "path": PATH("../yamls/myPage/feedbackDelTest.yaml"),
+               "device": self.devicesName, "caseName": sys._getframe().f_code.co_name}
+        self.execute(app)
+    # 关于我们
+    def test_018_aboutUs(self):
+        app = {"logTest": self.logTest, "launch_app":self.launch_app,"driver": self.driver, "path": PATH("../yamls/myPage/aboutUsTest.yaml"),
                "device": self.devicesName, "caseName": sys._getframe().f_code.co_name}
         self.execute(app)
     @classmethod
