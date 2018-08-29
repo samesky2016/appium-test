@@ -114,3 +114,87 @@ long_press(WebElement el, int x, int y)
 #取消执行该动作
 cancel()
 #执行该动作
+
+
+ Appium的辅助类，主要针对手势操作，比如滑动、长按、拖动等。针对最新版本（5.0.4）已不支持swipe等方法，所以可以用TouchAction类来封装成新的swipe方法。
+1、按压控件
+
+方法：
+
+    press()
+
+开始按压一个元素或坐标点（x,y）。通过手指按压手机屏幕的某个位置。
+
+press(WebElement el, int x, int y)
+
+press也可以接收屏幕的坐标（x,y）。
+
+例：
+
+    TouchAction(driver).press(x=0,y=308).release().perform()
+
+除了press()方法之外，本例中还用到了别外两个新方法。
+
+    release() 结束的行动取消屏幕上的指针。
+
+    Perform() 执行的操作发送到服务器的命令操作。
+
+2、长按控件
+
+方法：
+
+    longPress()
+
+开始按压一个元素或坐标点（x,y）。 相比press()方法，longPress()多了一个入参，既然长按，得有按的时间吧。duration以毫秒为单位。1000表示按一秒钟。其用法与press()方法相同。
+
+longPress(WebElement el, int x, int y, Duration duration)
+
+例：
+
+    TouchAction action = new TouchAction(driver);
+    action.longPress(names.get(200),1000).perform().release();
+    action.longPress(200 ,200,1000).perform().release();
+
+3、点击控件
+
+方法：
+
+    tap()
+
+对一个元素或控件执行点击操作。用法参考press()。
+
+tap(WebElement el, int x, int y)
+
+例：
+
+    TouchAction action = new TouchAction(driver);
+    action.tap(names.get(200)).perform().release();
+    action.tap(200 ,200).perform().release();
+
+4、移动
+
+方法：
+
+    moveTo()
+
+将指针（光标）从过去指向指定的元素或点。
+
+movTo(WebElement el, int x, int y)
+
+其用法参考press()方法。
+
+例：
+
+    TouchAction action = new TouchAction(driver);
+    action.moveTo(names.get(200)).perform().release();
+    action.moveTo(200 ,200).perform().release();
+
+5、暂停
+
+方法：
+
+    wait()
+
+暂停脚本的执行，单位为毫秒。
+
+action.wait(1000);
