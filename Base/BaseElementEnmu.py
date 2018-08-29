@@ -19,6 +19,7 @@ class Element(object):
     SET_VALUE = "set_value"
     GET_VALUE = "get_value"
     LONG_PRESS = "long_press"
+    PRESS_SWIPE = "press_swipe"
     #查找元素的超时时间
     WAIT_TIME = 20
     #查找元素时的轮训时间，默认是0.5秒，容易报找不到元素的错误。

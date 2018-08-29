@@ -103,7 +103,8 @@ class OperateElement:
                 be.ADB_TAP: lambda: self.adb_tap(operate, device),
                 be.GET_CONTENT_DESC: lambda: self.get_content_desc(operate),
                 be.PRESS_KEY_CODE: lambda: self.press_keycode(operate),
-                be.LONG_PRESS: lambda: self.longPressAction(operate)
+                be.LONG_PRESS: lambda: self.longPressAction(operate),
+                be.PRESS_SWIPE: lambda: self.longPressAndSwipeAction(operate)
 
             }
             return elements[operate.get("operate_type")]()
