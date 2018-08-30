@@ -73,7 +73,7 @@ def ocr_qrcode_zxing(filename):
 
 
 if __name__ == '__main__':
-    filename = r'E:\test12.jpg'
+    filename = r'E:\Catch.jpg'
 
     # zbar二维码识别
     # ltext = ocr_qrcode_zbar(filename)
