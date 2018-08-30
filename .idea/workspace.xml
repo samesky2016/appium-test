@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddb0de69-ad6e-4042-9b9f-25fcf6c5fbf9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yamls/myPage/settingAccountSafeTest.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yamls/myPage/settingOpenDoorTest.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yamls/myPage/settingQuestionTest.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Base/parseQrcode.py" beforeDir="false" afterPath="$PROJECT_DIR$/Base/parseQrcode.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/Appium_api.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/Appium_api.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/sum.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/Log/sum.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Report/Report.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Report/Report.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/MyPageTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/MyPageTest.py" afterDir="false" />
     </list>
     <ignored path="D:\appium\.idea\shelf/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,14 +21,15 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/appium$BaseApk.coverage" NAME="BaseApk Coverage Results" MODIFIED="1532061188542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Base" />
     <SUITE FILE_PATH="coverage/appium$HTMLTestRunner.coverage" NAME="HTMLTestRunner Coverage Results" MODIFIED="1535434858986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Base" />
-    <SUITE FILE_PATH="coverage/appium$runner__1_.coverage" NAME="runner (1) Coverage Results" MODIFIED="1535540471912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Runner" />
+    <SUITE FILE_PATH="coverage/appium$runner__1_.coverage" NAME="runner (1) Coverage Results" MODIFIED="1535623249793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Runner" />
     <SUITE FILE_PATH="coverage/appium$BaseExcel.coverage" NAME="BaseExcel Coverage Results" MODIFIED="1532393515884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Base" />
     <SUITE FILE_PATH="coverage/appium$BaseAdb.coverage" NAME="BaseAdb Coverage Results" MODIFIED="1535439143735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Base" />
+    <SUITE FILE_PATH="coverage/appium$Unittests_for_MyPageTest_MyPageTest.coverage" NAME="Unittests for MyPageTest.MyPageTest Coverage Results" MODIFIED="1535623241863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/appium$BaseEmail.coverage" NAME="BaseEmail Coverage Results" MODIFIED="1532314485142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Base" />
     <SUITE FILE_PATH="coverage/appium_test$Unittests_for_MyPageTest_MyPageTest.coverage" NAME="Unittests for MyPageTest.MyPageTest Coverage Results" MODIFIED="1535282230366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/appium$Unittests_for_MyPageTest_MyPageTest_test_008_ConsumeRecord.coverage" NAME="Unittests for MyPageTest.MyPageTest.test_008_ConsumeRecord Coverage Results" MODIFIED="1535093680138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/appium_test$runner__1_.coverage" NAME="runner (1) Coverage Results" MODIFIED="1535290792692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Runner" />
-    <SUITE FILE_PATH="coverage/appium$parseQrcode.coverage" NAME="parseQrcode Coverage Results" MODIFIED="1535589558769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Base" />
+    <SUITE FILE_PATH="coverage/appium$parseQrcode.coverage" NAME="parseQrcode Coverage Results" MODIFIED="1535614351936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Base" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -35,49 +39,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="parseQrcode.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Base/parseQrcode.py">
+      <file leaf-file-name="MyPageTest.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestCase/MyPageTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2430">
-              <caret line="90" selection-start-line="90" selection-end-line="90" />
+            <state relative-caret-position="198">
+              <caret line="144" column="13" selection-start-line="144" selection-start-column="13" selection-end-line="144" selection-end-column="13" />
               <folding>
-                <element signature="e#21#30#0" expanded="true" />
+                <element signature="e#1#49#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseFile.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Base/BaseFile.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="BaseExcel.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Base/BaseExcel.py">
+      <file leaf-file-name="runner.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Runner/runner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="80" column="14" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="14" />
+            <state relative-caret-position="303">
+              <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseStatistics.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Base/BaseStatistics.py">
+      <file leaf-file-name="settingAccountSafeTest.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yamls/myPage/settingAccountSafeTest.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="167" column="18" selection-start-line="167" selection-start-column="18" selection-end-line="167" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Appium_api.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/doc/Appium_api.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor>
-                <caret column="1" selection-start-column="1" selection-end-column="1" />
-              </first_editor>
-              <second_editor />
+            <state relative-caret-position="1080">
+              <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -94,7 +81,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>PID</find>
       <find>appium</find>
       <find>packingTime</find>
       <find>2017</find>
@@ -124,6 +110,7 @@
       <find>asus_P023_android_5</find>
       <find>is_time</find>
       <find>operate_type</find>
+      <find>get_content_desc</find>
     </findStrings>
     <replaceStrings>
       <replace>driver</replace>
@@ -147,10 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Base/BasePickle.py" />
-        <option value="$PROJECT_DIR$/Base/BaseYaml.py" />
-        <option value="$PROJECT_DIR$/use.md" />
-        <option value="$PROJECT_DIR$/Base/BaseApk.py" />
         <option value="$PROJECT_DIR$/Runner/Devices.py" />
         <option value="$PROJECT_DIR$/app/kill5037.bat" />
         <option value="$PROJECT_DIR$/Base/BaseAppiumServer.py" />
@@ -186,7 +169,6 @@
         <option value="$PROJECT_DIR$/yamls/myPage/openDoorApplyTest.yaml" />
         <option value="$PROJECT_DIR$/PageObject/My/MyPage.py" />
         <option value="$PROJECT_DIR$/yamls/myPage/feedbackTest.yaml" />
-        <option value="$PROJECT_DIR$/Runner/runner.py" />
         <option value="$PROJECT_DIR$/yamls/myPage/feedbackMoreTest.yaml" />
         <option value="$PROJECT_DIR$/yamls/myPage/feedbackDelTest.yaml" />
         <option value="$PROJECT_DIR$/CHANGELOG.md" />
@@ -194,10 +176,15 @@
         <option value="$PROJECT_DIR$/Base/BaseElementEnmu.py" />
         <option value="$PROJECT_DIR$/mark.md" />
         <option value="$PROJECT_DIR$/doc/Appium_api.txt" />
-        <option value="$PROJECT_DIR$/TestCase/MyPageTest.py" />
         <option value="$PROJECT_DIR$/yamls/myPage/aboutUsTest.yaml" />
         <option value="$PROJECT_DIR$/Base/parseQrcode.py" />
         <option value="$PROJECT_DIR$/doc/Appium_api.md" />
+        <option value="$PROJECT_DIR$/Runner/runner.py" />
+        <option value="$PROJECT_DIR$/yamls/myPage/settingTest.yaml" />
+        <option value="$PROJECT_DIR$/yamls/myPage/settingOpenDoorTest.yaml" />
+        <option value="$PROJECT_DIR$/yamls/myPage/settingQuestionTest.yaml" />
+        <option value="$PROJECT_DIR$/yamls/myPage/settingAccountSafeTest.yaml" />
+        <option value="$PROJECT_DIR$/TestCase/MyPageTest.py" />
       </list>
     </option>
   </component>
@@ -253,7 +240,23 @@
             <path>
               <item name="appium" type="b2602c69:ProjectViewProjectNode" />
               <item name="appium" type="462c0819:PsiDirectoryNode" />
-              <item name="doc" type="462c0819:PsiDirectoryNode" />
+              <item name="Report" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="appium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="appium" type="462c0819:PsiDirectoryNode" />
+              <item name="Runner" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="appium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="appium" type="462c0819:PsiDirectoryNode" />
+              <item name="yamls" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="appium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="appium" type="462c0819:PsiDirectoryNode" />
+              <item name="yamls" type="462c0819:PsiDirectoryNode" />
+              <item name="myPage" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -274,18 +277,18 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\appium\Base" />
-      <recent name="D:\appium\yamls\myPage" />
-      <recent name="D:\appium\app" />
-      <recent name="E:\appium\appium-master\appium-test\yamls\myPage" />
-      <recent name="D:\appium\PageObject\My" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\demo\appium\PageObject\Home" />
       <recent name="D:\app\appium\yaml" />
       <recent name="D:\app\appium\test" />
       <recent name="D:\app\appium\resources" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\appium\yamls\myPage" />
+      <recent name="D:\appium\Base" />
+      <recent name="D:\appium\app" />
+      <recent name="E:\appium\appium-master\appium-test\yamls\myPage" />
+      <recent name="D:\appium\PageObject\My" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -300,7 +303,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.parseQrcode">
+  <component name="RunManager" selected="Python.runner (1)">
     <configuration name="BaseAdb" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="appium" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -439,11 +442,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.parseQrcode" />
         <item itemvalue="Python.runner (1)" />
+        <item itemvalue="Python tests.Unittests for MyPageTest.MyPageTest" />
+        <item itemvalue="Python.parseQrcode" />
         <item itemvalue="Python.BaseAdb" />
         <item itemvalue="Python.HTMLTestRunner" />
-        <item itemvalue="Python tests.Unittests for MyPageTest.MyPageTest" />
       </list>
     </recent_temporary>
   </component>
@@ -689,13 +692,17 @@
       <option name="project" value="LOCAL" />
       <updated>1535590582901</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="markdown编辑">
+      <created>1535590919752</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1535590919752</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittest_AndroidTests_test_plus - 2018.05.03 at 23h 24m 33s.xml">
-      <configuration name="Unittest AndroidTests.test_plus" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittest_AndroidTests_test_plus - 2018.05.03 at 23h 30m 36s.xml">
       <configuration name="Unittest AndroidTests.test_plus" configurationId="tests" />
     </history-entry>
@@ -723,6 +730,9 @@
     <history-entry file="Unittests_in_2_py - 2017.05.27 at 18h 10m 53s.xml">
       <configuration name="Unittests in 2.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_MyPageTest_MyPageTest - 2018.08.30 at 18h 00m 43s.xml">
+      <configuration name="Unittests for MyPageTest.MyPageTest" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -735,22 +745,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="13" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50208336" side_tool="true" weight="0.35348225" />
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Python Console" order="3" />
-      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.49791667" weight="0.35348225" />
+      <window_info active="true" anchor="bottom" id="Run" order="9" sideWeight="0.49791667" visible="true" weight="0.31143233" />
       <window_info anchor="bottom" id="Terminal" order="5" weight="0.32969433" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.18472221" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.18472221" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.3285151" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="10" visible="true" weight="0.39947438" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.39947438" />
       <window_info anchor="bottom" id="找到" order="6" weight="0.32969433" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
@@ -761,7 +771,6 @@
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="调试" order="0" weight="0.5043668" />
-      <window_info anchor="bottom" id="Find" order="8" weight="0.3285151" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="找到" order="6" weight="0.32969433" />
@@ -901,48 +910,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PageObject/SumResult.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Base/BaseApk.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="37" column="20" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Base/BaseInit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="34" column="98" selection-start-line="34" selection-start-column="98" selection-end-line="34" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yamls/home/registerTest.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="36" column="19" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yamls/home/loginTest.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Base/BaseIosCommand.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-241">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Runner/runner_ios.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-735">
@@ -1076,13 +1043,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Base/BaseOperate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2056">
-          <caret line="261" column="8" selection-start-line="261" selection-start-column="8" selection-end-line="261" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yamls/myPage/aboutUsTest.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1053">
@@ -1104,47 +1064,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/MyPageTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="120" selection-start-line="120" selection-end-line="120" />
-          <folding>
-            <element signature="e#1#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Runner/runner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Base/parseQrcode.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2430">
-          <caret line="90" selection-start-line="90" selection-end-line="90" />
-          <folding>
-            <element signature="e#21#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Base/BaseFile.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/xlsxwriter/worksheet.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
           <caret line="1106" column="8" selection-start-line="1106" selection-start-column="8" selection-end-line="1106" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Base/BaseExcel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="80" column="14" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -1185,25 +1108,8 @@
     <entry file="file://$PROJECT_DIR$/Log/devices.pickle">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Base/BaseStatistics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="167" column="18" selection-start-line="167" selection-start-column="18" selection-end-line="167" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mark.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="1188">
-            <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -1247,6 +1153,106 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="3490">
           <caret line="199" column="18" selection-start-line="199" selection-start-column="18" selection-end-line="199" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Base/BaseStatistics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="167" column="18" selection-start-line="167" selection-start-column="18" selection-end-line="167" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Base/BaseExcel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="80" column="14" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Base/BaseFile.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yamls/home/registerTest.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="36" column="19" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yamls/home/loginTest.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Base/parseQrcode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Base/BaseInit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Base/BaseOperate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2992">
+          <caret line="336" column="8" selection-start-line="336" selection-start-column="8" selection-end-line="336" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mark.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="439">
+            <caret line="30" column="30" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="30" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yamls/myPage/settingQuestionTest.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-621">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yamls/myPage/settingOpenDoorTest.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yamls/myPage/settingAccountSafeTest.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/MyPageTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="144" column="13" selection-start-line="144" selection-start-column="13" selection-end-line="144" selection-end-column="13" />
+          <folding>
+            <element signature="e#1#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Runner/runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
         </state>
       </provider>
     </entry>
