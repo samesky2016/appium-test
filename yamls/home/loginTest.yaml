@@ -10,12 +10,12 @@ testcase:
     - element_info: com.jieshun.jslife:id/editxt_user_name
       find_type: id
       operate_type: set_value
-      msg: "手机号"
+      msg: "13632836691"
       info: 输入用户名
     - element_info: com.jieshun.jslife:id/edttxt_login_pwd
       find_type: id
       operate_type: set_value
-      msg: "密码"
+      msg: "123456"
       info: 输入密码
     - element_info: com.jieshun.jslife:id/btn_login
       find_type: id

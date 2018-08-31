@@ -5,7 +5,7 @@ import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.application import MIMEApplication
-
+from Base.BaseElementEnmu import Element
 
 class Mailer(object):
     def __init__(self, maillist, mailtitle, mailcontent):
@@ -18,6 +18,7 @@ class Mailer(object):
         self.mail_pass = "lgvyjlhlzbrubhab"
         self.mail_postfix = "qq.com"
 
+    @property
     def sendMail(self):
 
         me = self.mail_user + "<" + self.mail_user + "@" + self.mail_postfix + ">"
@@ -36,8 +37,8 @@ class Mailer(object):
         #msg.attach(jpgpart)
 
         # 首先是xlsx类型的附件
-        xlsxpart = MIMEApplication(open('../Report/Report.xlsx', 'rb').read())
-        xlsxpart.add_header('Content-Disposition', 'attachment', filename='Report.xlsx')
+        xlsxpart = MIMEApplication(open('../Report/'+Element.REPORT_FILE, 'rb').read())
+        xlsxpart.add_header('Content-Disposition', 'attachment', filename=Element.REPORT_FILE)
         msg.attach(xlsxpart)
 
         # mp3类型的附件
@@ -62,19 +63,19 @@ class Mailer(object):
             return False
 def sendEmail():
     # send list
-    mailto_list = ["guobiao.hu@jieshun.cn"]
-    mail_title = 'appium测试'
-    mail_content = '-------->>appium测试<<--------'
+    mailto_list = Element.EMAILTO_LIST.split(";")
+    mail_title = Element.EMAIL_TITLE
+    mail_content = '--------appium测试--------\n123344'
     mm = Mailer(mailto_list, mail_title, mail_content)
-    res = mm.sendMail()
+    res = mm.sendMail
     print('--------->>邮件发送完成！')
 
 
 if __name__ == '__main__':
     # send list
-    mailto_list = ["guobiao.hu@jieshun.cn", "zhandong.han@jieshun.cn"]
+    mailto_list = ["guobiao.hu@jieshun.cn"]
     mail_title = 'appium测试'
     mail_content = '-------->>appium测试<<--------'
     mm = Mailer(mailto_list, mail_title, mail_content)
-    res = mm.sendMail()
+    res = mm.sendMail
     print(res)

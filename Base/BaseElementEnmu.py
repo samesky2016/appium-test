@@ -49,4 +49,6 @@ class Element(object):
     INFO_FILE = "info.pickle"
     SUM_FILE = "sum.pickle"
     DEVICES_FILE = "devices.pickle"
-    REPORT_FILE = "Report.xlsx"
+    REPORT_FILE = "JslifeAPPReport.xlsx"
+    EMAILTO_LIST = "guobiao.hu@jieshun.cn;84028058@qq.com"
+    EMAIL_TITLE = "appium测试"
