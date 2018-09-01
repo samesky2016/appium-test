@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="sky">
+  <meta name="Keywords" content="appiumAutoTest">
+  <meta name="Description" content="testReport">
+  <title>Document</title>
+    <!-- CSS goes in the document HEAD or added to your external stylesheet -->
+<style type="text/css">
+table.gridtable {
+    font-family: verdana,arial,sans-serif;
+    font-size:13px;
+    color:#333333;
+    border-width: 1px;
+    border-color: #666666;
+    border-collapse: collapse;
+}
+table.gridtable th {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #666666;
+    background-color: #dedede;
+}
+table.gridtable td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #666666;
+    background-color: #ffffff;
+}
+</style>
+ </head>
+ <body>
+
+
+<!-- Table goes in the document BODY -->
+<h2>Appium-TestReport(测试与质量保证部):</h2>
+<h4>测试简介：</h4>
+<table name="introduction" class="gridtable">
+<tr>
+	<td>脚本语言</td><td>python3</td><td>测试框架</td><td>appium1.8</td>
+</tr>
+<tr>
+    <td>versionCode</td><td>$versionCode</td><td>用例总数</td><td>$toatal</td>
+</tr>
+<tr>
+	<td>versionName</td><td>$versionName</td><td>通过总数</td><td>$passTotal</td>
+</tr>
+<tr>
+	<td>packingTime</td><td>$packingTime</td><td>失败总数</td><td>$failTotal</td>
+</tr>
+<tr>
+	<td>测试日期</td><td>$testTime</td><td>测试耗时</td><td>$costTime</td>
+</tr>
+</table>
+<h4>测试结果概况：</h4>
+<table name="result" class="gridtable">
+<tr>
+    <th>设   备</th><th>机	型</th><th>通	过</th><th>失	败</th>
+</tr>
+<!-- 动态生结果后替换 -->
+	$testResult
+</table>
+
+ </body>
+</html>

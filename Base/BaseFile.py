@@ -31,3 +31,18 @@ def remove_file(f):
         os.remove(f)
     else:
         print("%s文件不存在，无法删除" % f)
+
+
+def readTemplate(path):
+    with open(path,encoding='UTF-8') as f:
+        try:
+            data = f.read()
+        except EOFError:
+            data = False
+            print("读取文件错误")
+    # print("------read-------")
+    #print(data)
+    return data
+
+if __name__== "__main__":
+    read(r"E:\appium\appium-master\appium-test\Report\result.html")

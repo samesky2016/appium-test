@@ -112,7 +112,7 @@ def countSumDevices(devices, result, phone_name):
 def countSum(result):
     # print("----countSum----")
     data = {"sum": 0, "pass": 0, "fail": 0}
-    _read = read(PATH("../Log/sum.pickle"))
+    _read = read(PATH("../Log/"+Element.SUM_FILE))
     if _read:
         data = _read
     data["sum"] = data["sum"] + 1

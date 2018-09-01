@@ -5,8 +5,16 @@ import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.application import MIMEApplication
-from Base.BaseElementEnmu import Element
 
+import os
+
+from Base.BaseElementEnmu import Element
+from Base.BaseFile import readTemplate
+from Base.BasePickle import read
+
+PATH = lambda p: os.path.abspath(
+    os.path.join(os.path.dirname(__file__), p)
+)
 class Mailer(object):
     def __init__(self, maillist, mailtitle, mailcontent):
         self.mail_list = maillist
@@ -27,8 +35,8 @@ class Mailer(object):
         msg['From'] = me
         msg['To'] = ";".join(self.mail_list)
 
-        # puretext = MIMEText('<h1>你好，<br/>'+self.mail_content+'</h1>','html','utf-8')
-        puretext = MIMEText(self.mail_content)
+        puretext = MIMEText(str(self.mail_content),'html','utf-8')
+        #puretext = MIMEText(self.mail_content)
         msg.attach(puretext)
 
         # jpg类型的附件
@@ -62,20 +70,66 @@ class Mailer(object):
             print(str(e))
             return False
 def sendEmail():
-    # send list
-    mailto_list = Element.EMAILTO_LIST.split(";")
-    mail_title = Element.EMAIL_TITLE
-    mail_content = '--------appium测试--------\n123344'
-    mm = Mailer(mailto_list, mail_title, mail_content)
+
+    # 读取结果数据
+    sumData = read(PATH("../Log/" + Element.SUM_FILE))
+
+    introduction = read(PATH("../Log/" + Element.DEVICES_FILE))
+
+    #读取模板
+    mail_content = readTemplate(Element.TEMPLATE_PATH)
+
+    # 生成总况表
+    mail_content = mail_content.replace("$versionCode", sumData["versionCode"])
+    mail_content = mail_content.replace("$toatal", str(sumData["sum"]))
+    mail_content = mail_content.replace("$versionName", sumData["versionName"])
+    mail_content = mail_content.replace("$passTotal", str(sumData["pass"]))
+    mail_content = mail_content.replace("$packingTime", sumData["packingTime"])
+    mail_content = mail_content.replace("$failTotal", str(sumData["fail"]))
+    mail_content = mail_content.replace("$testTime", sumData["testDate"])
+    mail_content = mail_content.replace("$costTime", sumData["testSumDate"])
+
+    # 生成每种机型用例执行情况表
+    result = ""
+    for item in introduction:
+        result = result + "<tr><td>" + item["device"] + "</td><td>" + item["phone_name"] + "</td><td>" + str(
+            item["pass"]) + "</td><td>" + str(item["fail"]) + "</td></tr>"
+
+    mail_content = mail_content.replace("$testResult", result)
+    mm = Mailer(Element.EMAILTO_LIST.split(";"), Element.EMAIL_TITLE, mail_content)
     res = mm.sendMail
-    print('--------->>邮件发送完成！')
+    if res:
+        print('--------->>邮件发送成功！')
+    else:
+        print('--------->>邮件发送失败！')
 
 
 if __name__ == '__main__':
     # send list
+    sumData = read(PATH("../Log/" + Element.SUM_FILE))
+
+    introduction = read(PATH("../Log/" + Element.DEVICES_FILE))
+
     mailto_list = ["guobiao.hu@jieshun.cn"]
     mail_title = 'appium测试'
-    mail_content = '-------->>appium测试<<--------'
+    mail_content = readTemplate(Element.TEMPLATE_PATH)
+
+    #生成总况表
+    mail_content=mail_content.replace("$versionCode",sumData["versionCode"])
+    mail_content = mail_content.replace("$toatal", str(sumData["sum"]))
+    mail_content = mail_content.replace("$versionName", sumData["versionName"])
+    mail_content = mail_content.replace("$passTotal", str(sumData["pass"]))
+    mail_content = mail_content.replace("$packingTime", sumData["packingTime"])
+    mail_content = mail_content.replace("$failTotal", str(sumData["fail"]))
+    mail_content = mail_content.replace("$testTime", sumData["testDate"])
+    mail_content = mail_content.replace("$costTime", sumData["testSumDate"])
+
+    #生成每种机型用例执行情况表
+    result=""
+    for item in introduction:
+        result=result+"<tr><td>"+item["device"]+"</td><td>"+item["phone_name"]+"</td><td>"+str(item["pass"])+"</td><td>"+str(item["fail"])+"</td></tr>"
+
+    mail_content=mail_content.replace("$testResult",result)
     mm = Mailer(mailto_list, mail_title, mail_content)
     res = mm.sendMail
     print(res)
