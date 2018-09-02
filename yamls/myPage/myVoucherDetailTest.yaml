@@ -1,7 +1,7 @@
 testinfo:
     - id: test005
-      title: 我的卡券
-      info: 我的卡券
+      title: 我的卡券-列表
+      info: 我的卡券-列表
 testcase:
     - element_info: com.jieshun.jslife:id/ic_guide_past
       find_type: id
@@ -28,7 +28,7 @@ testcase:
     - element_info: com.jieshun.jslife:id/my_card_volume_count
       find_type: id
       operate_type: click
-      info: 查看卡券详情
+      info: 查看卡券列表
 check:
     - element_info: com.jieshun.jslife:id/aclpcl_tv_unused
       find_type: id

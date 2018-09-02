@@ -1,7 +1,7 @@
 testinfo:
     - id: test010
-      title: 新增车辆
-      info: 新增车辆
+      title: 我的车辆-新增
+      info: 我的车辆-新增
 testcase:
     - element_info: com.jieshun.jslife:id/ic_guide_past
       find_type: id

@@ -1,7 +1,7 @@
 testinfo:
     - id: test014
-      title: 开门申请记录
-      info: 开门申请记录
+      title: 开门申请-记录
+      info: 开门申请-记录
 testcase:
     - element_info: com.jieshun.jslife:id/ic_guide_past
       find_type: id

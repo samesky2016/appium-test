@@ -1,7 +1,7 @@
 testinfo:
     - id: test012
-      title: 删除车辆-放弃删除
-      info: 删除车辆-放弃删除
+      title: 我的车辆-放弃删除
+      info: 我的车辆-放弃删除
 testcase:
     - element_info: com.jieshun.jslife:id/ic_guide_past
       find_type: id

@@ -1,7 +1,7 @@
 testinfo:
     - id: test009
-      title: 消费记录详情检查
-      info: 消费记录详情检查
+      title: 消费记录-详情
+      info: 消费记录-详情
 testcase:
     - element_info: com.jieshun.jslife:id/ic_guide_past
       find_type: id

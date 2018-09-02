@@ -1,7 +1,7 @@
 testinfo:
     - id: test003
-      title: 余额检查
-      info: 余额检查
+      title: 余额
+      info: 余额
 testcase:
     - element_info: com.jieshun.jslife:id/ic_guide_past
       find_type: id
