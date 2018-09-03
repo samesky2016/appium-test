@@ -77,7 +77,7 @@ def sendEmail():
     introduction = read(PATH("../Log/" + Element.DEVICES_FILE))
 
     #读取模板
-    mail_content = readTemplate(Element.TEMPLATE_PATH)
+    mail_content = readTemplate(PATH("../Report/"+Element.TEMPLATE_PATH))
 
     # 生成总况表
     mail_content = mail_content.replace("$versionCode", sumData["versionCode"])

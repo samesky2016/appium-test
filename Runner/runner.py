@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from TestCase.JSLifeAppTest import JsLifeAppTest
+#from TestCase.JSLifeAppTest import JsLifeAppTest
 
 __author__ = 'sky'
 import sys
