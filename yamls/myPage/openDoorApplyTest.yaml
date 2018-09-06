@@ -1,7 +1,7 @@
 testinfo:
     - id: test014
-      title: 开门申请-记录
-      info: 开门申请-记录
+      title: 开门申请-记录查询
+      info: 开门申请-记录查询
 testcase:
     - element_info: com.jieshun.jslife:id/ic_guide_past
       find_type: id
@@ -35,5 +35,4 @@ check:
     - element_info: //android.view.View[@content-desc="未查到任何权限申请记录"]
       find_type: xpath
       check: default_check
-      operate_type: get_value
       info: 开门权限申请记录

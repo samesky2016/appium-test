@@ -62,7 +62,7 @@ def runnerPool(getDevices):
 def runnerCaseApp(devices):
     starttime = datetime.now()
     suite = unittest.TestSuite()
-    suite.addTest(ParametrizedTestCase.parametrize(LoginPageTest, param=devices))
+    #suite.addTest(ParametrizedTestCase.parametrize(LoginPageTest, param=devices))
     suite.addTest(ParametrizedTestCase.parametrize(MyPageTest, param=devices)) #加入测试类
     #suite.addTest(ParametrizedTestCase.parametrize(JsLifeAppTest, param=devices))  # 加入测试类
 
@@ -98,6 +98,6 @@ if __name__ == '__main__':
         writeExcel()
         appium_server.stop_server(l_devices)
         #发送邮件
-        sendEmail()
+        #sendEmail()
     else:
         print("没有可用的安卓设备")
