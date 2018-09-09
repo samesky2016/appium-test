@@ -76,9 +76,9 @@ class ParametrizedTestCase(unittest.TestCase):
         cls.logTest = myLog().getLog(cls.devicesName)  # 每个设备实例化一个日志记录器
 
     def setUp(self):
-
+          pass
         # 每次用例执行完成重启一次app，而不断开会话，提升用例执行效率
-        self.driver.launch_app()
+        # self.driver.launch_app()
     @classmethod
     def tearDownClass(cls):
         pass

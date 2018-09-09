@@ -21,9 +21,9 @@ class Element(object):
     LONG_PRESS = "long_press"
     PRESS_SWIPE = "press_swipe"
     #查找元素的超时时间
-    WAIT_TIME = 20
+    WAIT_TIME = 10
     #查找元素时的轮训时间，默认是0.5秒，容易报找不到元素的错误。
-    POLL_FREQUENCY=0.1
+    POLL_FREQUENCY=0.2
     PRESS_KEY_CODE = "press_keycode"
 
     GET_CONTENT_DESC = "get_content_desc"
@@ -52,4 +52,4 @@ class Element(object):
     REPORT_FILE = "JslifeAppTestReport.xlsx"
     EMAILTO_LIST = "guobiao.hu@jieshun.cn;84028058@qq.com"
     EMAIL_TITLE = "appium测试"
-    TEMPLATE_PATH="result.html"
+    TEMPLATE_PATH=r"E:\appium\appium-master\appium-test\Report\result.html"

@@ -158,7 +158,7 @@ def get_format_center(wd, num=1):
 #成功标为绿色，以后合并成一个函数
 def get_format_center1(wd, num=1):
     return wd.add_format({ 'border': num,'bold': True,  'align': 'center',
-                                                                    'valign': 'vcenter','font_color': '#98FB98'})
+                                                                    'valign': 'vcenter','font_color': '#7CCD7C'})
 
 #失败标为红色，以后合并成一个函数
 def get_format_center2(wd, num=1):

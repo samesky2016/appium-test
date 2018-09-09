@@ -154,9 +154,9 @@ class PagesObjects:
                     result = False
                     break
                 print(resp)
-                if item.get("check", be.DEFAULT_CHECK) == be.COMPARE and self.is_get and resp["text"] !=str(item["msg"]):  # 历史数据和实际数据对比
+                if item.get("check", be.DEFAULT_CHECK) == be.COMPARE and self.is_get and resp.get("text","NoSuchElementError") !=str(item["msg"]):  # 历史数据和实际数据对比
                     result = False
-                    m = get_error({"type": be.COMPARE, "current": resp["text"], "expectValue":item["msg"] })
+                    m = get_error({"type": be.COMPARE, "current": resp.get("text","NoSuchElementError"), "expectValue":item["msg"] })
                     self.msg = m_s_g + m
                     print(m)
                     self.testInfo[0]["msg"] = m
