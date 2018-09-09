@@ -15,10 +15,10 @@ class JsLifeAppTest(ParametrizedTestCase):
         page.checkPoint()
 
     def test_executor(self):
-        folder=os.walk(PATH("../yamls"))
+        folder=os.walk(PATH("../../yamls"))
         for root, dirs, files in folder:
             for file in files:
-                #if file.startswith("test001"):
+                if file.startswith("test001") or file.startswith("test002"):
                     self.driver.launch_app()
                     try:
 

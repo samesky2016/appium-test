@@ -1,21 +1,13 @@
 # -*- coding: utf-8 -*-
 
 __author__ = 'shikun'
-import sys
 import random
+import sys
 
 sys.path.append("..")
-import platform
-from Base.BaseAndroidPhone import *
 from Base.BaseIosCommand import *
 from Base.BaseRunner import ParametrizedTestCase
-from TestCase.LoginPageTest import HomeTest
-from TestCase.ContactTest import ContactTest
-from TestCase.CardsTest import CardsTest
-from TestCase.MeTest import MeTest
-from TestCase.HistoryTest import HistoryTest
-from TestCase.TeamTest import TeamTest
-from TestCase.TestWeiQunTest import TestWeiQunTest
+from TestCase.JsLifeAppTestCase.LoginPageTest import HomeTest
 from Base.BaseAppiumServer import AppiumServer
 from multiprocessing import Pool
 import unittest

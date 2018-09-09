@@ -42,7 +42,7 @@ python runner.py
 
 
 **≤‚ ‘±®∏Ê**
-
+![email.png](Img/email.png "email.png")
 ![sum.png](Img/sum.png "sum.png")
 
 ![detail.jpg](Img/detail.jpg "detail.jpg")

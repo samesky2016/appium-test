@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-from TestCase.JSLifeAppTest import JsLifeAppTest
+from TestCase.JsLifeAppTestCase.JSLifeAppTest import JsLifeAppTest
+from TestCase.JsLifeAppTestCase.LoginPageTest import LoginPageTest
 
 __author__ = 'sky'
 import sys
@@ -9,17 +10,15 @@ import platform
 from Base.BaseAndroidPhone import *
 from Base.BaseAdb import *
 from Base.BaseRunner import ParametrizedTestCase
-from TestCase.LoginPageTest import LoginPageTest
-from TestCase.MyPageTest import MyPageTest
 from Base.BaseAppiumServer import AppiumServer
 from multiprocessing import Pool
 import unittest
-from Base.BaseInit import init, mk_file
-from Base.BaseStatistics import countDate, writeExcel, countSumDevices
+from Base.BaseInit import mk_file
+from Base.BaseStatistics import countDate, writeExcel
 from Base.BasePickle import *
 from datetime import datetime
 from Base.BaseApk import ApkInfo
-from Base.BaseEmail import sendEmail
+
 PATH = lambda p: os.path.abspath(
     os.path.join(os.path.dirname(__file__), p)
 )
