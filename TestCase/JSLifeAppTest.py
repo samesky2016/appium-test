@@ -1,9 +1,7 @@
 import os
 
-import sys
-
 from Base.BaseRunner import ParametrizedTestCase
-from PageObject.My.MyPage import MyPage
+from PageObject.JslifeApp.JslifeAppBasePage import JslifeAppPage
 PATH = lambda p: os.path.abspath(
     os.path.join(os.path.dirname(__file__), p)
 )
@@ -12,7 +10,7 @@ class JsLifeAppTest(ParametrizedTestCase):
 
     def executor(self,app={}):
 
-        page = MyPage(app)
+        page = JslifeAppPage(app)
         page.operate()
         page.checkPoint()
 
@@ -20,19 +18,18 @@ class JsLifeAppTest(ParametrizedTestCase):
         folder=os.walk(PATH("../yamls"))
         for root, dirs, files in folder:
             for file in files:
-                if file.startswith("test001"):
+                #if file.startswith("test001"):
+                    self.driver.launch_app()
                     try:
 
                         testCasePath=os.path.join(root, file)
 
                         app = {"logTest": self.logTest, "launch_app":self.launch_app,"driver": self.driver,
                                "path": testCasePath,
-                               "device": self.devicesName, "caseName": sys._getframe().f_code.co_name}
+                               "device": self.devicesName, "caseName":file.split(".")[0]}
                         self.executor(app)
-                        self.driver.launch_app()
                     except Exception as e:
                         print(e)
-                        self.driver.launch_app()
                         continue
 
 
