@@ -1,0 +1,49 @@
+testinfo:
+    - id: test017
+      title: 意见反馈-删除
+      info: 意见反馈-删除
+testcase:
+    - element_info: com.jieshun.jslife:id/ic_guide_past
+      find_type: id
+      operate_type: click
+      info: 跳过欢迎界面
+    - element_info: com.jieshun.jslife:id/editxt_user_name
+      find_type: id
+      operate_type: set_value
+      msg: "13632836691"
+      info: 输入用户名
+    - element_info: com.jieshun.jslife:id/edttxt_login_pwd
+      find_type: id
+      operate_type: set_value
+      msg: "test123456"
+      info: 输入密码
+    - element_info: com.jieshun.jslife:id/btn_login
+      find_type: id
+      operate_type: click
+      info: 点击登录按钮
+    - element_info: com.jieshun.jslife:id/tv_user_page
+      find_type: id
+      operate_type: click
+      info: 点击我的
+    - element_info: com.jieshun.jslife:id/rl_opinion_feedback
+      find_type: id
+      operate_type: click
+      info: 点击意见反馈
+    - element_info: com.jieshun.jslife:id/iv_more
+      find_type: id
+      operate_type: click
+      info: 查看反馈记录
+    - element_info: //android.widget.TextView[@text='反馈意见测试，请勿处理！']
+      find_type: xpath
+      operate_type: long_press
+      timeout: 1000
+      info: 点击某条记录
+    - element_info: //android.widget.TextView[@text='删除反馈']
+      find_type: xpath
+      operate_type: click
+      info: 点击删除
+check:
+    - element_info: //*[contains(@text, '删除成功')]
+      find_type: xpath
+      check: "toast"
+      info: 提示信息

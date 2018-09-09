@@ -1,0 +1,56 @@
+testinfo:
+    - id: test005
+      title: 我的卡券-列表
+      info: 我的卡券-列表
+testcase:
+    - element_info: com.jieshun.jslife:id/ic_guide_past
+      find_type: id
+      operate_type: click
+      info: 跳过欢迎界面
+    - element_info: com.jieshun.jslife:id/editxt_user_name
+      find_type: id
+      operate_type: set_value
+      msg: "13632836691"
+      info: 输入用户名
+    - element_info: com.jieshun.jslife:id/edttxt_login_pwd
+      find_type: id
+      operate_type: set_value
+      msg: "test123456"
+      info: 输入密码
+    - element_info: com.jieshun.jslife:id/btn_login
+      find_type: id
+      operate_type: click
+      info: 点击登录按钮
+    - element_info: com.jieshun.jslife:id/tv_user_page
+      find_type: id
+      operate_type: click
+      info: 点击我的
+    - element_info: com.jieshun.jslife:id/my_card_volume_count
+      find_type: id
+      operate_type: click
+      info: 查看卡券列表
+check:
+    - element_info: com.jieshun.jslife:id/aclpcl_tv_unused
+      find_type: id
+      msg: 未使用(2)
+      check: compare
+      operate_type: get_value
+      info: 未使用卡券
+    - element_info: com.jieshun.jslife:id/aclpcl_tv_over_time
+      find_type: id
+      msg: 已过期(2)
+      check: compare
+      operate_type: get_value
+      info: 已过期卡券
+    - element_info: com.jieshun.jslife:id/aclpcl_tv_used
+      find_type: id
+      msg: 已使用(0)
+      check: compare
+      operate_type: get_value
+      info: 已使用卡券
+    - element_info: com.jieshun.jslife:id/activity_car_life_parking_coupon_listitem_title_tv
+      find_type: id
+      msg: 1.00元停车券
+      check: compare
+      operate_type: get_value
+      info: 卡券面额
