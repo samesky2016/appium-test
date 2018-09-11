@@ -1,23 +1,31 @@
 (dp0
 VversionCode
 p1
-V302010
+V302030
 p2
 sVversionName
 p3
-V3.2.2
+VV3.2.3
 p4
 sVpackingTime
 p5
-V2018-09-11 15:06:51
+V2018-09-11 15:44:43
 p6
 sVsum
 p7
-I0
+I1
 sVpass
 p8
 I0
 sVfail
 p9
-I0
+I1
+sVtestDate
+p10
+V2018-09-11 15:46:16
+p11
+sVtestSumDate
+p12
+V71\u79d2
+p13
 s.
