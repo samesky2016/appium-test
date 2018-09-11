@@ -1,12 +1,11 @@
 # -*- coding: utf-8 -*-
-from TestCase.JsLifeAppTestCase.JSLifeAppTest import JsLifeAppTest
-from TestCase.JsLifeAppTestCase.LoginPageTest import LoginPageTest
-
 __author__ = 'sky'
 import sys
 
 sys.path.append("..")
 import platform
+from TestCase.JsLifeAppTestCase.JSLifeAppTest import JsLifeAppTest
+#from TestCase.JsLifeAppTestCase.LoginPageTest import LoginPageTest
 from Base.BaseAndroidPhone import *
 from Base.BaseAdb import *
 from Base.BaseRunner import ParametrizedTestCase
