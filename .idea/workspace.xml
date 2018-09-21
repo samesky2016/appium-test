@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ddb0de69-ad6e-4042-9b9f-25fcf6c5fbf9" name="Default" comment="1、调整框架的目录结构，层次更加分明。">
-      <change afterPath="$PROJECT_DIR$/PageObject/JslifeApp/My/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PageObject/JslifeApp/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCase/JsLifeAppTestCase/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/appium.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/appium.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="ddb0de69-ad6e-4042-9b9f-25fcf6c5fbf9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Log/sum.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/Log/sum.pickle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Report/JslifeAppTestReport.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Report/JslifeAppTestReport.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Runner/runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/Runner/runner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/JsLifeAppTestCase/JSLifeAppTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/JsLifeAppTestCase/JSLifeAppTest.py" afterDir="false" />
     </list>
     <ignored path="D:\appium\.idea\shelf/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,7 +22,7 @@
     <SUITE FILE_PATH="coverage/appium_test$Unittests_for_MyPageTest_MyPageTest.coverage" NAME="Unittests for MyPageTest.MyPageTest Coverage Results" MODIFIED="1535282230366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/appium$parseQrcode.coverage" NAME="parseQrcode Coverage Results" MODIFIED="1535614351936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Base" />
     <SUITE FILE_PATH="coverage/appium$BaseApk.coverage" NAME="BaseApk Coverage Results" MODIFIED="1532061188542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Base" />
-    <SUITE FILE_PATH="coverage/appium$runner__1_.coverage" NAME="runner (1) Coverage Results" MODIFIED="1536649555741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Runner" />
+    <SUITE FILE_PATH="coverage/appium$runner__1_.coverage" NAME="runner (1) Coverage Results" MODIFIED="1536651876046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Runner" />
     <SUITE FILE_PATH="coverage/appium_test$Unittests_for_JSLifeAppTest_JsLifeAppTest_test_executor.coverage" NAME="Unittests for JSLifeAppTest.JsLifeAppTest.test_executor Coverage Results" MODIFIED="1536497443368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/JsLifeAppTestCase" />
     <SUITE FILE_PATH="coverage/appium$BaseExcel.coverage" NAME="BaseExcel Coverage Results" MODIFIED="1532393515884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Base" />
     <SUITE FILE_PATH="coverage/appium$BaseEmail.coverage" NAME="BaseEmail Coverage Results" MODIFIED="1532314485142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Base" />
@@ -44,20 +37,88 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MyPageTest.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestCase/JsLifeAppTestCase/MyPageTest.py">
+      <file leaf-file-name="test022_settingMessageTest.yaml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/yamls/jsLifeAppYaml/myPage/test022_settingMessageTest.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3888">
-              <caret line="148" column="29" selection-start-line="148" selection-start-column="29" selection-end-line="148" selection-end-column="29" />
+            <state relative-caret-position="468">
+              <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="runner.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Runner/runner.py">
+      <file leaf-file-name="test019_settingAccountSafeTest.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yamls/jsLifeAppYaml/myPage/test019_settingAccountSafeTest.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="67" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
+            <state relative-caret-position="-558" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test017_feedbackDelTest.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yamls/jsLifeAppYaml/myPage/test017_feedbackDelTest.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-729" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test016_feedbackMoreTest.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yamls/jsLifeAppYaml/myPage/test016_feedbackMoreTest.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="52" column="26" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mark.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mark.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="196">
+                <caret line="22" column="21" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="21" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseOperate.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Base/BaseOperate.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="233" column="17" selection-start-line="233" selection-start-column="8" selection-end-line="233" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test011_myCarTest.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yamls/jsLifeAppYaml/myPage/test011_myCarTest.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-45">
+              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test012_myCarDelCancelTest.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yamls/jsLifeAppYaml/myPage/test012_myCarDelCancelTest.yaml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="test010_myCarAddTest.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yamls/jsLifeAppYaml/myPage/test010_myCarAddTest.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1296" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="use.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/use.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="2187">
+                <caret line="108" column="28" selection-start-line="108" selection-start-column="28" selection-end-line="108" selection-end-column="28" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -74,8 +135,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>2017</find>
-      <find>toast</find>
       <find>B5</find>
       <find>sum</find>
       <find>OK</find>
@@ -104,6 +163,8 @@
       <find>get_content_desc</find>
       <find>/yamls</find>
       <find>../</find>
+      <find>用例格式错误</find>
+      <find>swipe_up</find>
     </findStrings>
     <replaceStrings>
       <replace>driver</replace>
@@ -129,8 +190,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/PageObject/Home/LoginPage.py" />
         <option value="$PROJECT_DIR$/TestCase/MyHomePageTest.py" />
         <option value="$PROJECT_DIR$/yamls/myPage/myBalanceTest.yaml" />
         <option value="$PROJECT_DIR$/yamls/myPage/myVoucherDetailTest.yaml" />
@@ -178,8 +237,10 @@
         <option value="$PROJECT_DIR$/TestCase/JsLifeAppTestCase/MyPageTest.py" />
         <option value="$PROJECT_DIR$/CHANGELOG.md" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/TestCase/JsLifeAppTestCase/JSLifeAppTest.py" />
         <option value="$PROJECT_DIR$/Runner/runner.py" />
+        <option value="$PROJECT_DIR$/TestCase/JsLifeAppTestCase/JSLifeAppTest.py" />
+        <option value="$PROJECT_DIR$/Base/BaseYaml.py" />
+        <option value="$PROJECT_DIR$/yamls/jsLifeAppYaml/myPage/test022_settingMessageTest.yaml" />
       </list>
     </option>
   </component>
@@ -192,7 +253,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="54" />
     <option name="y" value="6" />
     <option name="width" value="1160" />
@@ -237,12 +298,30 @@
             <path>
               <item name="appium" type="b2602c69:ProjectViewProjectNode" />
               <item name="appium" type="462c0819:PsiDirectoryNode" />
+              <item name="Report" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="appium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="appium" type="462c0819:PsiDirectoryNode" />
               <item name="Runner" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="appium" type="b2602c69:ProjectViewProjectNode" />
               <item name="appium" type="462c0819:PsiDirectoryNode" />
-              <item name="TestCase" type="462c0819:PsiDirectoryNode" />
+              <item name="yamls" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="appium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="appium" type="462c0819:PsiDirectoryNode" />
+              <item name="yamls" type="462c0819:PsiDirectoryNode" />
+              <item name="jsLifeAppYaml" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="appium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="appium" type="462c0819:PsiDirectoryNode" />
+              <item name="yamls" type="462c0819:PsiDirectoryNode" />
+              <item name="jsLifeAppYaml" type="462c0819:PsiDirectoryNode" />
+              <item name="myPage" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -708,7 +787,21 @@
       <option name="project" value="LOCAL" />
       <updated>1536495968040</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="1、修改模块导入报错问题。">
+      <created>1536649701087</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1536649701087</updated>
+    </task>
+    <task id="LOCAL-00040" summary="1、新增用例。">
+      <created>1536670260296</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1536670260296</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -759,17 +852,18 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32969433" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.1629435" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.5768725" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3298292" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18333334" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39947438" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="找到" order="8" weight="0.38646287" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -780,7 +874,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="调试" order="7" weight="0.32969433" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -827,7 +920,6 @@
     <MESSAGE value="增加requirements.txt文件，pip install -r requirements.txt  #注意，如果出现错误不要跳过，请根据错误信息尝试解决" />
     <MESSAGE value="删除无关的测试用例" />
     <MESSAGE value="1、增加用例；&#10;2、优化报表。" />
-    <MESSAGE value="1、新增用例。" />
     <MESSAGE value="修复检查点的bug" />
     <MESSAGE value="更新软件包" />
     <MESSAGE value="更新appium-uiautomator2为V0.4.1" />
@@ -843,7 +935,9 @@
     <MESSAGE value="markdown编辑" />
     <MESSAGE value="1、更改用例名称，2、封装自动扫描测试用例。" />
     <MESSAGE value="1、以应用为单位封装pageObject" />
-    <option name="LAST_COMMIT_MESSAGE" value="1、以应用为单位封装pageObject" />
+    <MESSAGE value="1、修改模块导入报错问题。" />
+    <MESSAGE value="1、新增用例。" />
+    <option name="LAST_COMMIT_MESSAGE" value="1、新增用例。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -873,6 +967,16 @@
           <line>45</line>
           <option name="timeStamp" value="146" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Base/BaseYaml.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Base/BaseYaml.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -881,7 +985,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="147" />
+      <option name="time" value="149" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -896,6 +1000,8 @@
         <watch expression="mOperate[&quot;element_info&quot;]" />
         <watch expression="mOperate[&quot;element_info&quot;]==&quot;com.jieshun.jslife:id/ic_guide_past&quot;" />
         <watch expression="file" />
+        <watch expression="x" />
+        <watch expression="path" />
       </configuration>
     </watches-manager>
   </component>
@@ -904,60 +1010,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/unittest/case.py" />
-    <entry file="file://$PROJECT_DIR$/yamls/myPage/feedbackDelTest.yaml" />
-    <entry file="file://$PROJECT_DIR$/yamls/myPage/aboutUsTest.yaml" />
-    <entry file="file://$PROJECT_DIR$/Base/BaseRunner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2052">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/xlsxwriter/worksheet.py" />
-    <entry file="file://$PROJECT_DIR$/Log/asus_P023_android_5.1.120180829185656/关于我们CheckPoint_4_NG.png" />
-    <entry file="file://$PROJECT_DIR$/Log/asus_P023_android_5.1.120180829093011/outPut.log" />
-    <entry file="file://$PROJECT_DIR$/Log/asus_P023_android_5.1.120180829152554/意见反馈-追问CheckPoint_2_NG.png" />
-    <entry file="file://$PROJECT_DIR$/Log/info.pickle" />
-    <entry file="file://$PROJECT_DIR$/Log/sum.pickle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-541" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/Appium_api.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="3490">
-          <caret line="199" column="18" selection-start-line="199" selection-start-column="18" selection-end-line="199" selection-end-column="18" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="1" selection-start-column="1" selection-end-column="1" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yamls/home/registerTest.yaml" />
-    <entry file="file://$PROJECT_DIR$/Base/parseQrcode.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yamls/myPage/settingQuestionTest.yaml" />
-    <entry file="file://$PROJECT_DIR$/yamls/myPage/settingOpenDoorTest.yaml" />
-    <entry file="file://$PROJECT_DIR$/yamls/myPage/settingAccountSafeTest.yaml" />
     <entry file="file://$PROJECT_DIR$/yamls/home/loginTest.yaml" />
-    <entry file="file://$PROJECT_DIR$/Base/BaseOperate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Base/BaseApk.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -988,13 +1041,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PageObject/JslifeApp/JslifeAppBasePage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -1049,26 +1095,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4779">
           <caret line="177" column="29" selection-start-line="177" selection-start-column="29" selection-end-line="177" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Base/BaseYaml.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="972">
-          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/use.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="169">
-            <caret line="108" column="28" selection-start-line="108" selection-start-column="28" selection-end-line="108" selection-end-column="28" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1076,26 +1102,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3888">
           <caret line="148" column="29" selection-start-line="148" selection-start-column="29" selection-end-line="148" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="656">
-            <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mark.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="655">
-            <caret line="30" column="30" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="30" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1115,16 +1121,6 @@
           <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
           <folding>
             <element signature="e#1#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/JsLifeAppTestCase/JSLifeAppTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1151,10 +1147,150 @@
     <entry file="file://$PROJECT_DIR$/Runner/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/JsLifeAppTestCase/JSLifeAppTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Base/BaseYaml.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PageObject/JslifeApp/JslifeAppBasePage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yamls/jsLifeAppYaml/myPage/test018_aboutUsTest.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-891" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yamls/jsLifeAppYaml/myPage/test008_consumeRecord.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1591" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yamls/jsLifeAppYaml/myPage/test007_overTimeVoucherDetailTest.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1296" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yamls/jsLifeAppYaml/myPage/test006_unusedVoucherDetailTest.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1375" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yamls/jsLifeAppYaml/myPage/test005_myVoucherDetailTest.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1240" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yamls/jsLifeAppYaml/myPage/test003_myBalanceTest.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-673" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yamls/jsLifeAppYaml/myPage/test004_myVoucherTest.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-673" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yamls/jsLifeAppYaml/myPage/test021_settingQuestionTest.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yamls/jsLifeAppYaml/myPage/test020_settingOpenDoorTest.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-972" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Runner/runner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="67" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
+        <state relative-caret-position="27">
+          <caret line="72" column="14" selection-start-line="72" selection-start-column="14" selection-end-line="72" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="155">
+            <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/use.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="2187">
+            <caret line="108" column="28" selection-start-line="108" selection-start-column="28" selection-end-line="108" selection-end-column="28" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yamls/jsLifeAppYaml/myPage/test011_myCarTest.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yamls/jsLifeAppYaml/myPage/test012_myCarDelCancelTest.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yamls/jsLifeAppYaml/myPage/test010_myCarAddTest.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1296" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Base/BaseOperate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="233" column="17" selection-start-line="233" selection-start-column="8" selection-end-line="233" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mark.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="196">
+            <caret line="22" column="21" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="21" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yamls/jsLifeAppYaml/myPage/test019_settingAccountSafeTest.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-558" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yamls/jsLifeAppYaml/myPage/test017_feedbackDelTest.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-729" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yamls/jsLifeAppYaml/myPage/test016_feedbackMoreTest.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="52" column="26" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yamls/jsLifeAppYaml/myPage/test022_settingMessageTest.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
         </state>
       </provider>
     </entry>
