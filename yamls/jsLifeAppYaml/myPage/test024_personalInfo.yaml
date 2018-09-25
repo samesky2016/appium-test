@@ -1,0 +1,57 @@
+testinfo:
+    - id: test024
+      title: 我的-个人信息
+      info: 我的-个人信息
+testcase:
+    - element_info: com.jieshun.jslife:id/ic_guide_past
+      find_type: id
+      operate_type: click
+      info: 跳过欢迎界面
+    - element_info: com.jieshun.jslife:id/editxt_user_name
+      find_type: id
+      operate_type: set_value
+      msg: "13632836691"
+      info: 输入用户名
+    - element_info: com.jieshun.jslife:id/edttxt_login_pwd
+      find_type: id
+      operate_type: set_value
+      msg: "test123456"
+      info: 输入密码
+    - element_info: com.jieshun.jslife:id/btn_login
+      find_type: id
+      operate_type: click
+      info: 点击登录按钮
+    - element_info: com.jieshun.jslife:id/tv_user_page
+      find_type: id
+      operate_type: click
+      info: 点击我的
+    - element_info: com.jieshun.jslife:id/tv_user_sign
+      find_type: id
+      operate_type: click
+      info: 点击进入个人信息页
+
+check:
+    - element_info: com.jieshun.jslife:id/tv_user_phone
+      find_type: id
+      check: compare
+      msg: 13632836691
+      operate_type: get_value
+      info: 账号
+    - element_info: com.jieshun.jslife:id/tv_user_ral_name_tv
+      find_type: id
+      check: compare
+      msg: "胡国彪"
+      operate_type: get_value
+      info: 姓名
+    - element_info: com.jieshun.jslife:id/tv_user_nick
+      find_type: id
+      check: compare
+      msg: "sky"
+      operate_type: get_value
+      info: 昵称
+    - element_info: com.jieshun.jslife:id/tv_align
+      find_type: id
+      check: compare
+      msg: "胡国彪测试账号"
+      operate_type: get_value
+      info: 签名         

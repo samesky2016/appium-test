@@ -18,7 +18,7 @@ class JsLifeAppTest(ParametrizedTestCase):
         folder=os.walk(PATH("../../yamls"))
         for root, dirs, files in folder:
             for file in files:
-                if file.startswith("test022"):
+                if file.startswith("test023") or file.startswith("test024"):
                     self.driver.launch_app()
                     try:
 
