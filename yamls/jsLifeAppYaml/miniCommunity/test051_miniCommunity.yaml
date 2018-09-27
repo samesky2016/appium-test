@@ -1,7 +1,7 @@
 testinfo:
-    - id: test032
-      title: 微社区-我的卡片
-      info: 微社区-我的卡片
+    - id: test051
+      title: 微社区
+      info: 微社区
 testcase:
     - element_info: com.jieshun.jslife:id/ic_guide_past
       find_type: id
@@ -21,32 +21,12 @@ testcase:
       find_type: id
       operate_type: click
       info: 点击登录按钮
-    - element_info: com.jieshun.jslife:id/tv_select_community
-      find_type: id
-      operate_type: click
-      info: 点击选择社区
-    - element_info: //android.widget.TextView[@text='捷顺科技园区']
-      find_type: xpath
-      operate_type: click
-      info: 选择社区          
     - element_info: com.jieshun.jslife:id/tv_mini_community
       find_type: id
       operate_type: click
       info: 点击微社区
+check:
     - element_info: com.jieshun.jslife:id/rl_my_card
       find_type: id
-      operate_type: click
-      info: 我的卡片      
-check:
-    - element_info: //android.widget.TextView[@text='EF852CD0']
-      find_type: xpath
-      msg: EF852CD0
-      check: compare
-      operate_type: get_value
-      info: 门卡1
-    - element_info: //android.widget.TextView[@text='97409CD1']
-      find_type: xpath
-      msg: 97409CD1
-      check: compare
-      operate_type: get_value
-      info: 门卡2
+      check: check_default
+      info: 我的卡片

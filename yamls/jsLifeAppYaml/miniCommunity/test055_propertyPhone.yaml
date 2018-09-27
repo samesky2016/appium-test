@@ -1,0 +1,47 @@
+testinfo:
+    - id: test055
+      title: 微社区-联系物管
+      info: 微社区-联系物管
+testcase:
+    - element_info: com.jieshun.jslife:id/ic_guide_past
+      find_type: id
+      operate_type: click
+      info: 跳过欢迎界面
+    - element_info: com.jieshun.jslife:id/editxt_user_name
+      find_type: id
+      operate_type: set_value
+      msg: "13632836691"
+      info: 输入用户名
+    - element_info: com.jieshun.jslife:id/edttxt_login_pwd
+      find_type: id
+      operate_type: set_value
+      msg: "test123456"
+      info: 输入密码
+    - element_info: com.jieshun.jslife:id/btn_login
+      find_type: id
+      operate_type: click
+      info: 点击登录按钮
+    - element_info: com.jieshun.jslife:id/tv_select_community
+      find_type: id
+      operate_type: click
+      info: 点击选择社区
+    - element_info: //android.widget.TextView[@text='捷顺科技园区']
+      find_type: xpath
+      operate_type: click
+      info: 选择社区   
+    - element_info: com.jieshun.jslife:id/tv_mini_community
+      find_type: id
+      operate_type: click
+      info: 点击微社区
+    - element_info: com.jieshun.jslife:id/rl_connect_property_management
+      find_type: id
+      operate_type: click
+      info: 联系物管
+      
+check:
+    - element_info: com.jieshun.jslife:id/dialog_message
+      find_type: id
+      msg: 物业联系方式:400-7005305
+      check: compare
+      operate_type: get_value
+      info: 物业联系电话

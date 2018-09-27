@@ -1,0 +1,43 @@
+testinfo:
+    - id: test057
+      title: 微社区-社区公告
+      info: 微社区-社区公告
+testcase:
+    - element_info: com.jieshun.jslife:id/ic_guide_past
+      find_type: id
+      operate_type: click
+      info: 跳过欢迎界面
+    - element_info: com.jieshun.jslife:id/editxt_user_name
+      find_type: id
+      operate_type: set_value
+      msg: "13632836691"
+      info: 输入用户名
+    - element_info: com.jieshun.jslife:id/edttxt_login_pwd
+      find_type: id
+      operate_type: set_value
+      msg: "test123456"
+      info: 输入密码
+    - element_info: com.jieshun.jslife:id/btn_login
+      find_type: id
+      operate_type: click
+      info: 点击登录按钮
+    - element_info: com.jieshun.jslife:id/tv_mini_community
+      find_type: id
+      operate_type: click
+      info: 点击微社区
+    - element_info: com.jieshun.jslife:id/iv_community_vote_view
+      find_type: id
+      operate_type: click
+      info: 社区投票
+
+
+      
+check:
+    - element_info: //android.view.View[@content-desc="门禁盒子使用调研"]
+      find_type: xpath
+      check: check_default
+      info: 检查元素
+    - element_info: //android.view.View[@content-desc="已结束"]
+      find_type: xpath
+      check: check_default
+      info: 检查元素
