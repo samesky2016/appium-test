@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ddb0de69-ad6e-4042-9b9f-25fcf6c5fbf9" name="Default" comment="" />
+    <list default="true" id="ddb0de69-ad6e-4042-9b9f-25fcf6c5fbf9" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/JsLifeAppTestCase/JSLifeAppTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/JsLifeAppTestCase/JSLifeAppTest.py" afterDir="false" />
+    </list>
     <ignored path="D:\appium\.idea\shelf/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,7 +39,7 @@
       <file leaf-file-name="test024_personalInfo.yaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yamls/jsLifeAppYaml/myPage/test024_personalInfo.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
+            <state relative-caret-position="891">
               <caret line="33" column="55" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
             </state>
           </provider>
@@ -45,26 +48,26 @@
       <file leaf-file-name="test025_editUserName.yaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yamls/jsLifeAppYaml/myPage/test025_editUserName.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
+            <state relative-caret-position="1269">
               <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test026_recoverUserName.yaml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test026_recoverUserName.yaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yamls/jsLifeAppYaml/myPage/test026_recoverUserName.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-115">
+            <state relative-caret-position="27">
               <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JSLifeAppTest.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="JSLifeAppTest.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TestCase/JsLifeAppTestCase/JSLifeAppTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+            <state relative-caret-position="63">
+              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -77,7 +80,7 @@
       <file leaf-file-name="runner.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Runner/runner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="2052">
               <caret line="76" column="17" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
             </state>
           </provider>
@@ -199,8 +202,8 @@
         <option value="$PROJECT_DIR$/yamls/jsLifeAppYaml/myPage/test022_settingMessageTest.yaml" />
         <option value="$PROJECT_DIR$/yamls/jsLifeAppYaml/myPage/test024_personalInfo.yaml" />
         <option value="$PROJECT_DIR$/yamls/jsLifeAppYaml/myPage/test025_editUserName.yaml" />
-        <option value="$PROJECT_DIR$/TestCase/JsLifeAppTestCase/JSLifeAppTest.py" />
         <option value="$PROJECT_DIR$/yamls/jsLifeAppYaml/myPage/test026_recoverUserName.yaml" />
+        <option value="$PROJECT_DIR$/TestCase/JsLifeAppTestCase/JSLifeAppTest.py" />
       </list>
     </option>
   </component>
@@ -783,7 +786,14 @@
       <option name="project" value="LOCAL" />
       <updated>1537863554134</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="1、新增用例。">
+      <created>1538041543533</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1538041543533</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -829,6 +839,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32969433" />
@@ -1242,36 +1253,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Runner/runner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="2052">
           <caret line="76" column="17" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yamls/jsLifeAppYaml/myPage/test024_personalInfo.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
+        <state relative-caret-position="891">
           <caret line="33" column="55" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/JsLifeAppTestCase/JSLifeAppTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yamls/jsLifeAppYaml/myPage/test025_editUserName.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
+        <state relative-caret-position="1269">
           <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yamls/jsLifeAppYaml/myPage/test026_recoverUserName.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-115">
+        <state relative-caret-position="27">
           <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/JsLifeAppTestCase/JSLifeAppTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,57 @@
+testinfo:
+    - id: test034
+      title: 微社区-申请开卡
+      info: 微社区-申请开卡
+testcase:
+    - element_info: com.jieshun.jslife:id/ic_guide_past
+      find_type: id
+      operate_type: click
+      info: 跳过欢迎界面
+    - element_info: com.jieshun.jslife:id/editxt_user_name
+      find_type: id
+      operate_type: set_value
+      msg: "13632836691"
+      info: 输入用户名
+    - element_info: com.jieshun.jslife:id/edttxt_login_pwd
+      find_type: id
+      operate_type: set_value
+      msg: "test123456"
+      info: 输入密码
+    - element_info: com.jieshun.jslife:id/btn_login
+      find_type: id
+      operate_type: click
+      info: 点击登录按钮
+    - element_info: com.jieshun.jslife:id/tv_select_community
+      find_type: id
+      operate_type: click
+      info: 点击选择社区
+    - element_info: //android.widget.TextView[@text='捷顺科技园区']
+      find_type: xpath
+      operate_type: click
+      info: 选择社区   
+    - element_info: com.jieshun.jslife:id/tv_mini_community
+      find_type: id
+      operate_type: click
+      info: 点击微社区
+    - element_info: com.jieshun.jslife:id/rl_my_card
+      find_type: id
+      operate_type: click
+      info: 我的卡片
+    - element_info: com.jieshun.jslife:id/iv_more
+      find_type: id
+      operate_type: click
+      info: 开卡记录
+    - element_info: com.jieshun.jslife:id/rl_top
+      find_type: id
+      operate_type: click
+      info: 取消开卡申请
+    - element_info: com.jieshun.jslife:id/txt_pop2
+      find_type: id
+      operate_type: click
+      info: 点击取消
+      
+check:
+    - element_info: //*[contains(@text, '取消成功')]
+      find_type: xpath
+      check: toast
+      info: 提示信息
