@@ -1,5 +1,5 @@
 testinfo:
-    - id: test056
+    - id: test058
       title: 微社区-社区公告
       info: 微社区-社区公告
 testcase:
@@ -21,28 +21,19 @@ testcase:
       find_type: id
       operate_type: click
       info: 点击登录按钮
-    - element_info: com.jieshun.jslife:id/tv_select_community
-      find_type: id
-      operate_type: click
-      info: 点击选择社区
-    - element_info: //android.widget.TextView[@text='捷顺科技园区']
-      find_type: xpath
-      is_time: 2
-      operate_type: click
-      info: 选择社区   
     - element_info: com.jieshun.jslife:id/tv_mini_community
       find_type: id
       operate_type: click
       info: 点击微社区
-    - element_info: com.jieshun.jslife:id/rl_community_announcements
+    - element_info: com.jieshun.jslife:id/rl_my_message
       find_type: id
       operate_type: click
-      info: 社区公告
+      info: 我的消息
 
 
       
 check:
-    - element_info: com.jieshun.jslife:id/content_view
+    - element_info: com.jieshun.jslife:id/fl_content_base
       find_type: id
       check: check_default
       info: 检查元素
