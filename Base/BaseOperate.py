@@ -132,11 +132,14 @@ class OperateElement:
 
     # 获取到元素到坐标点击，主要解决浮动层遮档无法触发driver.click的问题
     def adb_tap(self, mOperate, device):
-
-        bounds = self.elements_by(mOperate).location
-        x = str(bounds["x"])
-        y = str(bounds["y"])
-
+        #增加通过坐标来点击元素
+        if mOperate['byCoordinate']:
+            x = str(mOperate["x"])
+            y = str(mOperate["y"])
+        else:
+            bounds = self.elements_by(mOperate).location
+            x = str(bounds["x"])
+            y = str(bounds["y"])
         cmd = "adb -s " + device + " shell input tap " + x + " " + y
         print(cmd)
         os.system(cmd)
