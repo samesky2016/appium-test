@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ddb0de69-ad6e-4042-9b9f-25fcf6c5fbf9" name="Default" comment="">
+    <list default="true" id="ddb0de69-ad6e-4042-9b9f-25fcf6c5fbf9" name="Default" comment="增加通过坐标直接点击元素的操作。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Base/BaseOperate.py" beforeDir="false" afterPath="$PROJECT_DIR$/Base/BaseOperate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Log/sum.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/Log/sum.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/JsLifeAppTestCase/JSLifeAppTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/JsLifeAppTestCase/JSLifeAppTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mark.md" beforeDir="false" afterPath="$PROJECT_DIR$/mark.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Report/JslifeAppTestReport.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Report/JslifeAppTestReport.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yamls/jsLifeAppYaml/home/test001_loginTest.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/yamls/jsLifeAppYaml/home/test001_loginTest.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yamls/jsLifeAppYaml/myPage/test004_myVoucherTest.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/yamls/jsLifeAppYaml/myPage/test004_myVoucherTest.yaml" afterDir="false" />
     </list>
     <ignored path="D:\appium\.idea\shelf/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,27 +42,27 @@
       <file leaf-file-name="JSLifeAppTest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestCase/JsLifeAppTestCase/JSLifeAppTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="513">
               <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseOperate.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BaseOperate.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Base/BaseOperate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="138" column="13" lean-forward="true" selection-start-line="138" selection-start-column="13" selection-end-line="138" selection-end-column="13" />
+            <state relative-caret-position="432">
+              <caret line="161" column="10" lean-forward="true" selection-start-line="161" selection-start-column="10" selection-end-line="161" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mark.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mark.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mark.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="351">
-                <caret line="29" column="71" selection-start-line="29" selection-start-column="71" selection-end-line="29" selection-end-column="71" />
+              <first_editor relative-caret-position="1566">
+                <caret line="58" column="27" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
               </first_editor>
               <second_editor />
             </state>
@@ -72,7 +72,7 @@
       <file leaf-file-name="runner.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Runner/runner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
+            <state relative-caret-position="2430">
               <caret line="90" column="33" selection-start-line="90" selection-start-column="33" selection-end-line="90" selection-end-column="33" />
             </state>
           </provider>
@@ -99,7 +99,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>----------------------------------------</find>
       <find>------------------------------------------------------------------------</find>
       <find>期望</find>
       <find>resp-------&gt;&gt;</find>
@@ -129,6 +128,7 @@
       <find>adb_ta</find>
       <find>byCoordinate</find>
       <find>adb_tap</find>
+      <find>2张</find>
     </findStrings>
     <replaceStrings>
       <replace>driver</replace>
@@ -791,7 +791,14 @@
       <option name="project" value="LOCAL" />
       <updated>1538985425380</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="增加通过坐标直接点击元素的操作。">
+      <created>1539333844427</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1539333844427</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -846,14 +853,14 @@
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.5045992" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3298292" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18333334" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18333334" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3285151" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.195795" />
       <window_info anchor="bottom" id="找到" order="8" weight="0.38646287" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -902,7 +909,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="更新&#10;1、BaseAppiumServer中appium启动，appiumdesktop改为手动固定，后续考虑自动；&#10;2、修改BaseEmail发送附件方式。&#10;3、修改yaml文件；&#10;4、更新bat文件；&#10;5、runner增加发送邮件。" />
     <MESSAGE value="更新&#10;1、修改Excel图标生成位置。" />
     <MESSAGE value="更新&#10;1、新增捷生活登录测试用例。" />
     <MESSAGE value="1、修复检查点的bug。" />
@@ -927,7 +933,8 @@
     <MESSAGE value="1、以应用为单位封装pageObject" />
     <MESSAGE value="1、修改模块导入报错问题。" />
     <MESSAGE value="1、新增用例。" />
-    <option name="LAST_COMMIT_MESSAGE" value="1、新增用例。" />
+    <MESSAGE value="增加通过坐标直接点击元素的操作。" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加通过坐标直接点击元素的操作。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -980,7 +987,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/yamls/myPage/consumeRecordDetail.yaml" />
     <entry file="file://$PROJECT_DIR$/PageObject/JslifeApp/My/MyPage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1210,7 +1216,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TestCase/JsLifeAppTestCase/JSLifeAppTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="513">
           <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
         </state>
       </provider>
@@ -1233,9 +1239,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          <folding>
-            <element signature="e#1#10#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1248,25 +1251,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Runner/runner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
+        <state relative-caret-position="2430">
           <caret line="90" column="33" selection-start-line="90" selection-start-column="33" selection-end-line="90" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Base/BaseOperate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="138" column="13" lean-forward="true" selection-start-line="138" selection-start-column="13" selection-end-line="138" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mark.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="351">
-            <caret line="29" column="71" selection-start-line="29" selection-start-column="71" selection-end-line="29" selection-end-column="71" />
+          <first_editor relative-caret-position="1566">
+            <caret line="58" column="27" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/506359945/nt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="542" column="4" selection-start-line="542" selection-start-column="4" selection-end-line="542" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Base/BaseOperate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="161" column="10" lean-forward="true" selection-start-line="161" selection-start-column="10" selection-end-line="161" selection-end-column="10" />
         </state>
       </provider>
     </entry>

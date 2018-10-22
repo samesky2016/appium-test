@@ -47,7 +47,7 @@ check:
       info: 余额
     - element_info: com.jieshun.jslife:id/my_card_volume_count
       find_type: id
-      msg: 2张
+      msg: 0张
       check: compare
       operate_type: get_value
       info: 卡券
