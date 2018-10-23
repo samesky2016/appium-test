@@ -25,6 +25,10 @@ testcase:
       find_type: id
       operate_type: click
       info: 点击我的
+    - element_info: com.jieshun.jslife:id/tv_user_page
+      find_type: id
+      operate_type: swipe_up
+      info: 向上滑屏
     - element_info: com.jieshun.jslife:id/rl_setting
       find_type: id
       operate_type: click

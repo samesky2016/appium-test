@@ -32,7 +32,7 @@ testcase:
 check:
     - element_info: com.jieshun.jslife:id/aclpcl_tv_unused
       find_type: id
-      msg: 未使用(2)
+      msg: 未使用(0)
       check: compare
       operate_type: get_value
       info: 未使用卡券
@@ -48,9 +48,9 @@ check:
       check: compare
       operate_type: get_value
       info: 已使用卡券
-    - element_info: com.jieshun.jslife:id/activity_car_life_parking_coupon_listitem_title_tv
-      find_type: id
-      msg: 1.00元停车券
-      check: compare
-      operate_type: get_value
-      info: 卡券面额
+#    - element_info: com.jieshun.jslife:id/activity_car_life_parking_coupon_listitem_title_tv
+#      find_type: id
+#      msg: 1.00元停车券
+#      check: compare
+#      operate_type: get_value
+#      info: 卡券面额
