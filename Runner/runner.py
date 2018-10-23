@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+from Base.BaseEmail import sendEmail
+
 __author__ = 'sky'
 import sys
 
