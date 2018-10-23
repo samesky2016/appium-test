@@ -96,6 +96,6 @@ if __name__ == '__main__':
         writeExcel()
         appium_server.stop_server(l_devices)
         #发送邮件
-        #sendEmail()
+        sendEmail()
     else:
         print("没有可用的安卓设备")

@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ddb0de69-ad6e-4042-9b9f-25fcf6c5fbf9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/JsLifeAppTestCase/JSLifeAppTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/JsLifeAppTestCase/JSLifeAppTest.py" afterDir="false" />
     </list>
     <ignored path="D:\appium\.idea\shelf/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,11 +35,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="JSLifeAppTest.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JSLifeAppTest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestCase/JsLifeAppTestCase/JSLifeAppTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
+            <state relative-caret-position="387">
               <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseConfig.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Base/BaseConfig.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-896">
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseEmail.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Base/BaseEmail.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="98" column="33" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseElementEnmu.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Base/BaseElementEnmu.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -66,11 +94,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="runner.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="runner.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Runner/runner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2430">
-              <caret line="90" column="33" selection-start-line="90" selection-start-column="33" selection-end-line="90" selection-end-column="33" />
+            <state relative-caret-position="468">
+              <caret line="98" column="8" selection-start-line="98" selection-start-column="8" selection-end-line="98" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -192,7 +220,6 @@
         <option value="$PROJECT_DIR$/TestCase/JsLifeAppTestCase/MyPageTest.py" />
         <option value="$PROJECT_DIR$/CHANGELOG.md" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/Runner/runner.py" />
         <option value="$PROJECT_DIR$/Base/BaseYaml.py" />
         <option value="$PROJECT_DIR$/yamls/jsLifeAppYaml/myPage/test022_settingMessageTest.yaml" />
         <option value="$PROJECT_DIR$/yamls/jsLifeAppYaml/myPage/test024_personalInfo.yaml" />
@@ -202,6 +229,7 @@
         <option value="$PROJECT_DIR$/Base/BaseOperate.py" />
         <option value="$PROJECT_DIR$/mark.md" />
         <option value="$PROJECT_DIR$/TestCase/JsLifeAppTestCase/JSLifeAppTest.py" />
+        <option value="$PROJECT_DIR$/Runner/runner.py" />
       </list>
     </option>
   </component>
@@ -255,6 +283,11 @@
             <path>
               <item name="appium" type="b2602c69:ProjectViewProjectNode" />
               <item name="appium" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="appium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="appium" type="462c0819:PsiDirectoryNode" />
+              <item name="Base" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="appium" type="b2602c69:ProjectViewProjectNode" />
@@ -458,13 +491,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1495681351908</updated>
-    </task>
-    <task id="LOCAL-00001" summary="更新&#10;1、BaseAppiumServer中appium启动，appiumdesktop改为手动固定，后续考虑自动；&#10;2、修改BaseEmail发送附件方式。&#10;3、修改yaml文件；&#10;4、更新bat文件；&#10;5、runner增加发送邮件。">
-      <created>1532316347736</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1532316347736</updated>
     </task>
     <task id="LOCAL-00002" summary="更新&#10;1、修改Excel图标生成位置。">
       <created>1532396011459</created>
@@ -802,7 +828,14 @@
       <option name="project" value="LOCAL" />
       <updated>1540180480035</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="放开调试">
+      <created>1540263674714</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1540263674714</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -857,7 +890,7 @@
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.5045992" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3298292" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18333334" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18333334" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -913,7 +946,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="更新&#10;1、新增捷生活登录测试用例。" />
     <MESSAGE value="1、修复检查点的bug。" />
     <MESSAGE value="1、更新说明文档" />
     <MESSAGE value="增加requirements.txt文件，pip install -r requirements.txt  #注意，如果出现错误不要跳过，请根据错误信息尝试解决" />
@@ -938,7 +970,8 @@
     <MESSAGE value="1、新增用例。" />
     <MESSAGE value="增加通过坐标直接点击元素的操作。" />
     <MESSAGE value="修改期望值" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改期望值" />
+    <MESSAGE value="放开调试" />
+    <option name="LAST_COMMIT_MESSAGE" value="放开调试" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -991,29 +1024,12 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PageObject/JslifeApp/My/MyPage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PageObject/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/unittest/suite.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/unittest/case.py" />
     <entry file="file://$PROJECT_DIR$/PageObject/JslifeApp/Home/LoginPage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Base/BaseEmail.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="110" column="30" selection-start-line="110" selection-start-column="30" selection-end-line="110" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -1246,13 +1262,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Runner/runner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2430">
-          <caret line="90" column="33" selection-start-line="90" selection-start-column="33" selection-end-line="90" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mark.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -1279,8 +1288,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TestCase/JsLifeAppTestCase/JSLifeAppTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
+        <state relative-caret-position="387">
           <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Base/BaseConfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-896">
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Base/BaseEmail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="98" column="33" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Base/BaseElementEnmu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Runner/runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="98" column="8" selection-start-line="98" selection-start-column="8" selection-end-line="98" selection-end-column="8" />
         </state>
       </provider>
     </entry>
