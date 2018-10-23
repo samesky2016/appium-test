@@ -18,13 +18,13 @@ class LoginPageTest(ParametrizedTestCase):
 
     # 登录捷生活APP成功
     def test_001_loginJslifeApp(self,isCheck=True):
-        app = {"logTest": self.logTest, "launch_app":self.launch_app,"driver": self.driver, "path": PATH("../../yamls/jsLifeAppYaml/home/test001_loginTest.yaml"),
+        app = {"logTest": self.logTest, "launch_app":self.launch_app,"driver": self.driver, "path": PATH("../../yamls/jsLifeAppYaml/01_home/test001_loginTest.yaml"),
                "device": self.devicesName, "caseName": sys._getframe().f_code.co_name}
         self.execute(app)
 
     # 捷生活注册校验
     def test_002_register(self):
-        app = {"logTest": self.logTest,"launch_app":self.launch_app, "driver": self.driver, "path": PATH("../../yamls/jsLifeAppYaml/home/test002_registerTest.yaml"),
+        app = {"logTest": self.logTest,"launch_app":self.launch_app, "driver": self.driver, "path": PATH("../../yamls/jsLifeAppYaml/01_home/test002_registerTest.yaml"),
                "device": self.devicesName, "caseName": sys._getframe().f_code.co_name}
 
         self.execute(app)

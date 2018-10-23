@@ -40,7 +40,7 @@ class Mailer(object):
         msg.attach(puretext)
 
         # jpg类型的附件
-        #jpgpart = MIMEApplication(open('/home/mypan/1949777163775279642.jpg', 'rb').read())
+        #jpgpart = MIMEApplication(open('/01_home/mypan/1949777163775279642.jpg', 'rb').read())
         #jpgpart.add_header('Content-Disposition', 'attachment', filename='beauty.jpg')
         #msg.attach(jpgpart)
 
