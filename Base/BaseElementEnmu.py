@@ -52,4 +52,4 @@ class Element(object):
     REPORT_FILE = "JslifeAppTestReport.xlsx"
     EMAILTO_LIST = "guobiao.hu@jieshun.cn;84028058@qq.com"
     EMAIL_TITLE = "appium测试"
-    TEMPLATE_PATH=r"E:\appium\appium-master\appium-test\Report\result.html"
+    TEMPLATE_PATH="result.html"
