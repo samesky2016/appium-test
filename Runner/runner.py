@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-
-from Base.BaseEmail import sendEmail
-
 __author__ = 'sky'
 import sys
 
@@ -19,6 +17,7 @@ from Base.BaseStatistics import countDate, writeExcel
 from Base.BasePickle import *
 from datetime import datetime
 from Base.BaseApk import ApkInfo
+from Base.BaseEmail import sendEmail
 
 PATH = lambda p: os.path.abspath(
     os.path.join(os.path.dirname(__file__), p)
