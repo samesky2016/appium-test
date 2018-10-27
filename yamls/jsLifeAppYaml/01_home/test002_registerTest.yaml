@@ -32,7 +32,7 @@ testcase:
       info: 点击完成注册
 
 check:
-    - element_info: //*[contains(@text, '短信验证码不正确')] #//＊[@text="已经被注册过"]
+    - element_info: //*[contains(@text, '验证码不正确')] #//＊[@text="已经被注册过"]
       find_type: xpath
       check: "toast"
       info: 提示已经被注册
